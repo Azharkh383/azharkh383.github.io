@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+ <head>
+  <title>
+   Home | UK Vehicle Check
+  </title>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport"/>
+  <meta content="index,follow,max-image-preview:large" name="robots"/>
+  <meta content="#FBF5EC" id="themeColorMeta" name="theme-color"/>
+  <meta content="website" property="og:type"/>
+  <meta content="MOT Checker UK &ndash; Free MOT History Check | UK Vehicle Check" property="og:title"/>
+  <meta content="Learn how to check MOT history, MOT status and expiry dates by registration. Understand mileage, failures, advisories, MOT rules and official GOV.UK checks." property="og:description"/>
+  <meta content="summary" name="twitter:card"/>
+  <meta content="MOT Checker UK &ndash; UK Vehicle Check" name="twitter:title"/>
+  <meta content="Explore MOT history, MOT status, expiry dates, mileage and advisories by UK vehicle registration." name="twitter:description"/>
+  <meta content="Free MOT check guide for UK registration numbers. Learn about MOT history, status, expiry dates, mileage, failures, advisories, retests and MOT rules, with official GOV.UK links." name="description"/>
+  <link href="https://fonts.googleapis.com" rel="preconnect"/>
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Playfair+Display:wght@600;700&amp;display=swap" rel="stylesheet"/>
+  <link href="styles.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <a class="skip" href="#main">
+   Skip to main content
+  </a>
+  <header class="nav">
+   <div class="wrap">
+    <a class="logo" href="index.html">
+     UK Vehicle Check
+    </a>
+    <nav aria-label="Main" class="menu" id="menu">
+     <a aria-current="page" class="l" href="index.html">
+      Home
+     </a>
+     <a class="l" href="free-mot-check.html">
+      Free MOT Check
+     </a>
+     <a class="l" href="mot-history.html">
+      MOT History
+     </a>
+     <a class="l" href="mot-report.html">
+      MOT Report
+     </a>
+     <a class="l" href="what-is-included.html">
+      What Is Included
+     </a>
+     <a class="l" href="faqs.html">
+      FAQs
+     </a>
+     <a class="l" href="dvsa-data.html">
+      DVSA Data
+     </a>
+     <a class="l" href="legal.html">
+      Legal
+     </a>
+    </nav>
+    <button aria-label="Switch to dark mode" aria-pressed="false" class="theme-toggle" id="themeToggle" type="button">
+     <span aria-hidden="true" class="theme-icon">
+      ☾
+     </span>
+     <span class="theme-label">
+      Dark mode
+     </span>
+    </button>
+    <button aria-controls="menu" aria-expanded="false" aria-label="Open menu" class="burger" id="burger">
+     ☰
+    </button>
+   </div>
+  </header>
+  <main id="main">
+   <section class="hero" id="top">
+    <div class="wrap grid">
+     <div>
+      <span class="pill">
+       <svg aria-hidden="true" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="16">
+        <path d="M12 3l8 3v6c0 5-3.500 8-8 9-4.500-1-8-4-8-9V6z">
+        </path>
+        <path d="M9 12l2 2 4-4">
+        </path>
+       </svg>
+       Official DVSA MOT data connection pending
+      </span>
+      <h1>
+       Free MOT Checker UK &ndash; Check MOT History &amp; Status
+      </h1>
+      <p class="lead">
+       Enter a UK vehicle registration to check MOT status and explore MOT history, expiry dates, test results, recorded mileage, failures and advisories. This website is being prepared to use the official DVSA MOT History API. Live results will only be available after API access is approved and the secure connection is configured.
+      </p>
+      <form class="check" id="form" novalidate="">
+       <label for="reg">
+        Vehicle registration number
+       </label>
+       <div class="plate" id="plate">
+        <span aria-hidden="true" class="gb">
+         <i>
+         </i>
+         UK
+        </span>
+        <input aria-describedby="help msg" autocapitalize="characters" autocomplete="off" id="reg" inputmode="text" maxlength="8" placeholder="ENTER REG" spellcheck="false" type="text"/>
+       </div>
+       <div aria-label="Information the checker can show" class="chips">
+        <span>
+         <svg aria-hidden="true" fill="none" height="16" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="16">
+          <path d="M12 3l8 3v6c0 5-3.500 8-8 9-4.500-1-8-4-8-9V6z">
+          </path>
+         </svg>
+         MOT Status
+        </span>
+        <span>
+         <svg aria-hidden="true" fill="none" height="16" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="16">
+          <path d="M6 3h9l4 4v14H6z">
+          </path>
+          <path d="M9 12h7M9 16h7">
+          </path>
+         </svg>
+         MOT History
+        </span>
+        <span>
+         <svg aria-hidden="true" fill="none" height="16" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="16">
+          <path d="M4 18a8 8 0 1116 0">
+          </path>
+          <path d="M12 18l4-6">
+          </path>
+         </svg>
+         Mileage
+        </span>
+        <span>
+         <svg aria-hidden="true" fill="none" height="16" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="16">
+          <path d="M12 3l10 18H2z">
+          </path>
+          <path d="M12 10v5">
+          </path>
+         </svg>
+         Advisories
+        </span>
+       </div>
+       <button class="btn" id="go" type="submit">
+        <span aria-hidden="true" class="spin">
+        </span>
+        <span id="gotxt">
+         Check Vehicle
+        </span>
+       </button>
+       <p class="help" id="help">
+        Letters and numbers only, for example AB12 CDE. We use only the registration number you enter.
+       </p>
+       <div aria-live="polite" class="msg" id="msg" role="status">
+       </div>
+       <p class="official-fallback">
+        Need an official record now?
+        <a href="https://www.gov.uk/check-mot-history" rel="noopener noreferrer" target="_blank">
+         Check MOT history on GOV.UK &nearrow;
+        </a>
+       </p>
+      </form>
+      <section aria-live="polite" class="live-results" hidden="" id="liveResults">
+       <div class="results-head">
+        <div>
+         <span class="result-kicker">
+          VEHICLE REPORT
+         </span>
+         <h2 id="resultTitle">
+          MOT check results
+         </h2>
+         <p id="resultSubtitle">
+          Results returned by the connected data service.
+         </p>
+        </div>
+        <button class="clear-results" id="clearResults" type="button">
+         Clear results
+        </button>
+       </div>
+       <div class="vehicle-cards" id="vehicleCards">
+       </div>
+       <div class="result-panel">
+        <h3>
+         Recorded MOT test history
+        </h3>
+        <p class="panel-help">
+         Test dates, results, expiry and mileage are shown where the connected service provides them.
+        </p>
+        <div class="table-scroll">
+         <table class="history-table">
+          <thead>
+           <tr>
+            <th>
+             Test date
+            </th>
+            <th>
+             Result
+            </th>
+            <th>
+             Mileage
+            </th>
+            <th>
+             Expiry date
+            </th>
+           </tr>
+          </thead>
+          <tbody id="historyRows">
+          </tbody>
+         </table>
+        </div>
+        <p class="panel-help" hidden="" id="noTests">
+         No test-history records were returned for this vehicle.
+        </p>
+       </div>
+       <div class="results-columns">
+        <div class="result-panel">
+         <h3>
+          Mileage history
+         </h3>
+         <p class="panel-help">
+          Recorded odometer readings from available MOT tests.
+         </p>
+         <div class="mileage-chart" id="mileageChart">
+         </div>
+        </div>
+        <div class="result-panel">
+         <h3>
+          Failures, defects &amp; advisories
+         </h3>
+         <p class="panel-help">
+          Descriptions and severity are shown as supplied by the data service.
+         </p>
+         <div class="defect-list" id="defectList">
+         </div>
+        </div>
+       </div>
+       <p class="result-disclaimer">
+        MOT records describe test results at the time of testing. They do not guarantee the vehicle&rsquo;s current condition. Check official records and arrange an independent inspection when appropriate.
+       </p>
+      </section>
+      <div aria-labelledby="notifyHeading" class="notify-card">
+       <h3 id="notifyHeading">
+        🔔 Get MOT tips &amp; website updates
+       </h3>
+       <p>
+        Opt in to useful MOT guides and website updates when push notifications are configured. You can turn notifications off in your browser settings at any time.
+       </p>
+       <div class="notify-actions">
+        <button class="notify-btn" data-push-optin="" type="button">
+         Enable notifications
+        </button>
+        <span aria-live="polite" class="notify-status" id="notifyStatus" role="status">
+         Notifications are optional and only start after you choose to allow them.
+        </span>
+       </div>
+      </div>
+     </div>
+     <div class="stage">
+      <img alt="Dark saloon car on a country road at sunset" class="car" decoding="async" fetchpriority="high" height="350" src="assets/hero-car.svg" width="602"/>
+      <div aria-label="Illustrative example of a result" class="rep">
+       <div class="top">
+        <span class="tag">
+         Demonstration only, not a real lookup
+        </span>
+       </div>
+       <div class="top">
+        <h3>
+         MOT Report
+        </h3>
+        <span class="badge pass">
+         &checkmark; Passed
+        </span>
+       </div>
+       <div class="status">
+        <div>
+         <small>
+          MOT status
+         </small>
+         <strong>
+          PASSED
+         </strong>
+        </div>
+        <div style="text-align:right">
+         <small>
+          Valid until
+         </small>
+         <b>
+          12 Mar 2027
+         </b>
+        </div>
+       </div>
+       <div class="kv">
+        <div>
+         <small>
+          Latest test result
+         </small>
+         <b>
+          Passed
+         </b>
+        </div>
+        <div>
+         <small>
+          Recorded mileage
+         </small>
+         <b>
+          48,210 miles
+         </b>
+        </div>
+        <div>
+         <small>
+          Advisories
+         </small>
+         <b>
+          2 noted
+         </b>
+        </div>
+        <div>
+         <small>
+          Vehicle
+         </small>
+         <b>
+          Example vehicle
+         </b>
+        </div>
+       </div>
+       <p class="note">
+        Sample data to show the layout of a report.
+       </p>
+      </div>
+     </div>
+    </div>
+   </section>
+   <section id="check">
+    <div class="wrap">
+     <div class="sec-head">
+      <h2>
+       What Does a Free MOT Check Show?
+      </h2>
+      <p>
+       Use a UK MOT history check to review available test results, MOT status, expiry date, recorded mileage, defects and advisories for a vehicle registration.
+      </p>
+     </div>
+     <div class="hl">
+      <div>
+       <span class="ico">
+        <svg aria-hidden="true" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" viewbox="0 0 24 24" width="24">
+         <path d="M12 3l8 3v6c0 5-3.500 8-8 9-4.500-1-8-4-8-9V6z">
+         </path>
+         <path d="M9 12l2 2 4-4">
+         </path>
+        </svg>
+       </span>
+       <h3>
+        MOT status
+       </h3>
+       <p>
+        See whether the vehicle currently has a valid MOT.
+       </p>
+      </div>
+      <div>
+       <span class="ico">
+        <svg aria-hidden="true" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-width="1.8" viewbox="0 0 24 24" width="24">
+         <rect height="16" rx="2" width="18" x="3" y="5">
+         </rect>
+         <path d="M3 10h18M8 3v4M16 3v4">
+         </path>
+        </svg>
+       </span>
+       <h3>
+        MOT expiry date
+       </h3>
+       <p>
+        Find out when the current MOT runs out.
+       </p>
+      </div>
+      <div>
+       <span class="ico">
+        <svg aria-hidden="true" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-width="1.8" viewbox="0 0 24 24" width="24">
+         <path d="M4 18a8 8 0 1116 0">
+         </path>
+         <path d="M12 18l4-6">
+         </path>
+        </svg>
+       </span>
+       <h3>
+        Recorded mileage
+       </h3>
+       <p>
+        Odometer readings noted at each MOT test.
+       </p>
+      </div>
+      <div>
+       <span class="ico">
+        <svg aria-hidden="true" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" viewbox="0 0 24 24" width="24">
+         <path d="M9 11l3 3 8-8">
+         </path>
+         <path d="M20 12v7a2 2 0 01-2 2H6a2 2 0 01-2-2V6a2 2 0 012-2h9">
+         </path>
+        </svg>
+       </span>
+       <h3>
+        Test results
+       </h3>
+       <p>
+        Pass and fail outcomes for past MOT tests.
+       </p>
+      </div>
+      <div>
+       <span class="ico">
+        <svg aria-hidden="true" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" viewbox="0 0 24 24" width="24">
+         <path d="M12 3l10 18H2z">
+         </path>
+         <path d="M12 10v5M12 18h.01">
+         </path>
+        </svg>
+       </span>
+       <h3>
+        Defects and advisories
+       </h3>
+       <p>
+        Items testers noted, where the record includes them.
+       </p>
+      </div>
+      <div>
+       <span class="ico">
+        <svg aria-hidden="true" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" viewbox="0 0 24 24" width="24">
+         <path d="M5 17h14M6 17l1.5-6A2 2 0 019.400 9.500h5.200a2 2 0 011.900 1.500L18 17">
+         </path>
+         <circle cx="8" cy="17" r="1.5">
+         </circle>
+         <circle cx="16" cy="17" r="1.5">
+         </circle>
+        </svg>
+       </span>
+       <h3>
+        Vehicle details
+       </h3>
+       <p>
+        Basic vehicle information from authorised sources.
+       </p>
+      </div>
+     </div>
+    </div>
+   </section>
+   <section class="content-section" id="data-coverage">
+    <div class="wrap">
+     <span class="pill">
+      Official data source
+     </span>
+     <h2>
+      DVSA MOT data &amp; coverage
+     </h2>
+     <p>
+      UK Vehicle Check is being prepared to retrieve MOT history from the official Driver and Vehicle Standards Agency (DVSA) MOT History API. API access must be approved and connected securely before this website can show live vehicle records. UK Vehicle Check is not a GOV.UK website and is not endorsed by the UK Government.
+     </p>
+     <div class="stats-grid" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:14px;margin:22px 0">
+      <div class="result-panel">
+       <strong style="font-size:1.7rem;display:block">
+        2005+
+       </strong>
+       <span>
+        Car, motorcycle and van MOT history coverage in Great Britain (API coverage)
+       </span>
+      </div>
+      <div class="result-panel">
+       <strong style="font-size:1.7rem;display:block">
+        Daily
+       </strong>
+       <span>
+        Delta data files are published daily for the official bulk-data service
+       </span>
+      </div>
+      <div class="result-panel">
+       <strong style="font-size:1.7rem;display:block">
+        40M+
+       </strong>
+       <span>
+        MOT test records &mdash; indicative site statistic; confirm the current record count before publishing as a verified figure
+       </span>
+      </div>
+     </div>
+     <p>
+      <a href="https://documentation.history.mot.api.gov.uk/" rel="noopener noreferrer" target="_blank">
+       Read official DVSA MOT History API documentation &nearrow;
+      </a>
+      &middot;
+      <a href="https://www.gov.uk/check-mot-history" rel="noopener noreferrer" target="_blank">
+       Check MOT history on GOV.UK &nearrow;
+      </a>
+     </p>
+     <p class="result-disclaimer">
+      Data coverage varies by vehicle type and region. Cars, motorcycles and vans in Great Britain have records since 2005; Northern Ireland coverage begins in 2017 according to DVSA API documentation. Daily updates apply to the bulk-download data service, not necessarily every individual lookup.
+     </p>
+    </div>
+   </section>
+   <section class="editorial">
+    <div class="wrap">
+     <div class="sec-head">
+      <span class="eyebrow">
+       UK VEHICLE CHECK GUIDE
+      </span>
+      <h2>
+       Welcome to UK Vehicle Check
+      </h2>
+      <p>
+       A practical starting point for checking a used vehicle or keeping track of your own car. Use the guides below to understand MOT records before you make a decision.
+      </p>
+     </div>
+     <div class="glass-grid">
+      <article class="glass-card">
+       <span class="glass-number">
+        01
+       </span>
+       <h3>
+        What to review
+       </h3>
+       <p>
+        Start with the registration lookup, then review previous tests, mileage patterns and any recorded advisories. Remember that an MOT is a snapshot of roadworthiness on the test date, not a guarantee about the vehicle today.
+       </p>
+      </article>
+      <article class="glass-card">
+       <span class="glass-number">
+        02
+       </span>
+       <h3>
+        Know the limits
+       </h3>
+       <p>
+        Use official GOV.UK services to confirm important details. This independent information site is not affiliated with or endorsed by the UK Government.
+       </p>
+      </article>
+      <article class="glass-card">
+       <span class="glass-number">
+        03
+       </span>
+       <h3>
+        Next step
+       </h3>
+       <p>
+        For official records, visit
+        <a href="https://www.gov.uk/check-mot-history" rel="noopener noreferrer" target="_blank">
+         GOV.UK MOT history
+        </a>
+        . Keep a copy of relevant records and ask the seller to explain anything that does not match the vehicle or its paperwork.
+       </p>
+      </article>
+     </div>
+     <p class="editorial-note">
+      Guidance only. Always verify important details using official sources.
+     </p>
+    </div>
+   </section>
+   <section class="page-guide-extra editorial">
+    <div class="wrap">
+     <div class="sec-head">
+      <span class="eyebrow">
+       UK VEHICLE CHECK &bull; PRACTICAL GUIDE
+      </span>
+      <h1>
+       A clearer way to understand a vehicle&rsquo;s MOT record
+      </h1>
+      <p>
+       Use this independent guide to understand MOT status, past tests and the warning signs worth checking before you buy or keep a vehicle. The site is a front end and does not currently fetch live records; use the official checker for the vehicle-specific result.
+      </p>
+     </div>
+     <div class="glass-grid">
+      <article class="glass-card">
+       <span class="glass-number">
+        01
+       </span>
+       <h3>
+        Start with the registration
+       </h3>
+       <p>
+        A UK registration number helps the official service find a vehicle&rsquo;s MOT record. Check the plate carefully and compare the make and model returned with the vehicle you are viewing.
+       </p>
+      </article>
+      <article class="glass-card">
+       <span class="glass-number">
+        02
+       </span>
+       <h3>
+        Read the whole story
+       </h3>
+       <p>
+        One pass result is only a snapshot. Review the sequence of test dates, mileages, failures and advisories to understand what has changed over time.
+       </p>
+      </article>
+      <article class="glass-card">
+       <span class="glass-number">
+        03
+       </span>
+       <h3>
+        Use MOT history as one part of your decision
+       </h3>
+       <p>
+        An MOT record is not a full mechanical inspection and does not prove that a vehicle has no finance, theft marker, insurance write-off or hidden damage. Consider a professional inspection and separate checks where appropriate.
+       </p>
+      </article>
+     </div>
+     <div class="guide-checklist glass-card">
+      <h2>
+       Your quick MOT-check checklist
+      </h2>
+      <ul>
+       <li>
+        Confirm the registration and vehicle identity match.
+       </li>
+       <li>
+        Check the latest result and MOT expiry date.
+       </li>
+       <li>
+        Read mileage entries in date order and ask about any unexpected drop.
+       </li>
+       <li>
+        Review repeated advisories and previous failures.
+       </li>
+       <li>
+        Verify the result on GOV.UK before relying on it.
+       </li>
+      </ul>
+      <p class="editorial-note">
+       For vehicle-specific information, verify the record with
+       <a href="https://www.gov.uk/check-mot-history" rel="noopener noreferrer" target="_blank">
+        the official GOV.UK MOT history service
+       </a>
+       .
+      </p>
+     </div>
+    </div>
+   </section>
+  </main>
+  <section class="editorial">
+   <div class="wrap">
+    <div class="sec-head">
+     <span class="eyebrow">
+      A SMARTER STARTING POINT
+     </span>
+     <h2>
+      Check the record. Ask better questions. Buy with confidence.
+     </h2>
+     <p>
+      An MOT history is a useful first step when researching a UK vehicle. Use it to prepare informed questions&mdash;not as the only basis for a purchase.
+     </p>
+    </div>
+    <div class="cards-grid">
+     <article class="glass-card">
+      <h3>
+       Understand the latest result
+      </h3>
+      <p>
+       Review the recorded test outcome and expiry information, then verify the latest record using GOV.UK.
+      </p>
+      <a href="free-mot-check.html">
+       Learn about free MOT checks &rarr;
+      </a>
+     </article>
+     <article class="glass-card">
+      <h3>
+       Explore the full timeline
+      </h3>
+      <p>
+       Compare test results, mileage readings, failures and advisories across the available history.
+      </p>
+      <a href="mot-history.html">
+       Read the MOT history guide &rarr;
+      </a>
+     </article>
+     <article class="glass-card">
+      <h3>
+       Interpret the details
+      </h3>
+      <p>
+       Learn what test outcomes and advisory notes can tell you&mdash;and what they cannot guarantee.
+      </p>
+      <a href="mot-report.html">
+       Understand an MOT report &rarr;
+      </a>
+     </article>
+    </div>
+   </div>
+  </section>
+  <section class="editorial">
+   <div class="wrap">
+    <div class="sec-head">
+     <h2>
+      A practical used-car MOT checklist
+     </h2>
+     <p>
+      Before you commit to buying, work through these simple checks.
+     </p>
+    </div>
+    <ol class="numbered-list">
+     <li>
+      Match the registration and vehicle identity to the car and its paperwork.
+     </li>
+     <li>
+      Check the official MOT history and note the latest result and expiry date.
+     </li>
+     <li>
+      Compare mileage readings across test dates and ask about any discrepancies.
+     </li>
+     <li>
+      Review failures and advisories, and request evidence for significant repairs.
+     </li>
+     <li>
+      Inspect the car in person and consider an independent mechanical inspection.
+     </li>
+     <li>
+      Check other relevant details separately; MOT history does not cover every legal or financial check.
+     </li>
+    </ol>
+    <p class="editorial-note">
+     UK Vehicle Check is an independent information website. Live results are not available unless an authorised data connection is configured.
+    </p>
+   </div>
+  </section>
+  <footer class="site-footer">
+   <div class="wrap">
+    <p>
+     UK Vehicle Check provides independent information. It is not a GOV.UK website and is not endorsed by the UK Government. Verify vehicle details using official GOV.UK services.
+    </p>
+    <p>
+     <a href="legal.html">
+      Legal &amp; Disclaimer
+     </a>
+     &middot;
+     <a href="https://www.gov.uk/check-mot-history" rel="noopener noreferrer" target="_blank">
+      Official GOV.UK MOT history
+     </a>
+    </p>
+   </div>
+  </footer>
+  <script defer="True" src="app.js">
+  </script>
+ </body>
+</html>

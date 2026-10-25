@@ -1,0 +1,2340 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport"/>
+  <meta content="index,follow,max-image-preview:large" name="robots"/>
+  <!-- SEO note: add a canonical URL here after the final live domain and preferred URL are confirmed. -->
+  <title>
+   Free MOT Checker UK | MOT History &amp; Status | UK Vehicle Check
+  </title>
+  <meta content="#FBF5EC" id="themeColorMeta" name="theme-color"/>
+  <meta content="website" property="og:type"/>
+  <meta content="MOT Checker UK &ndash; Free MOT History Check | UK Vehicle Check" property="og:title"/>
+  <meta content="Learn how to check MOT history, MOT status and expiry dates by registration. Understand mileage, failures, advisories, MOT rules and official GOV.UK checks." property="og:description"/>
+  <meta content="summary" name="twitter:card"/>
+  <meta content="MOT Checker UK &ndash; UK Vehicle Check" name="twitter:title"/>
+  <meta content="Explore MOT history, MOT status, expiry dates, mileage and advisories by UK vehicle registration." name="twitter:description"/>
+  <meta content="Free MOT check guide for UK registration numbers. Learn about MOT history, status, expiry dates, mileage, failures, advisories, retests and MOT rules, with official GOV.UK links." name="description"/>
+  <link href="https://fonts.googleapis.com" rel="preconnect"/>
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Playfair+Display:wght@600;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   :root{
+--bg:#07090D;--bg2:#0C1118;--panel:#111823;--line:#243040;
+--gold:#E2BC62;--gold2:#B8892B;--goldgrad:linear-gradient(180deg,#F3D98B,#C9972F);
+--h:#FFFFFF;--body:#B4BCC9;--muted:#8A94A6;
+--paper:#F5F7FB;--ink:#101828;--ink2:#475467;--pline:#E4E7EC;
+--pass:#15803D;--fail:#DC2626;--warn:#D97706;--info:#475569;--blue:#2563EB;
+--max:1160px;color-scheme:dark;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-behavior:smooth;scroll-padding-top:calc(84px + env(safe-area-inset-top,0px));background:var(--bg)}
+body{margin:0;font:400 16px/1.6 Inter,system-ui,sans-serif;color:var(--body);background:var(--bg)}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--bg);z-index:60}
+h1,h2,h3{color:var(--h);margin:0;line-height:1.12}
+h1,h2{font-family:'Playfair Display',Georgia,serif;font-weight:700}
+h1{font-size:clamp(2.2rem,5.2vw,3.7rem)}h2{font-size:clamp(1.7rem,3.2vw,2.4rem)}h3{font:600 1.05rem Inter,sans-serif}
+p{margin:0}a{color:var(--gold)}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 24px}
+section{padding:84px 0}.alt{background:var(--bg2)}
+.sec-head{max-width:620px;margin-bottom:40px}.sec-head p{margin-top:12px}
+:focus-visible{outline:3px solid var(--gold);outline-offset:3px;border-radius:8px}
+.skip{position:absolute;left:-999px;top:8px;background:var(--gold);color:#111;padding:8px 14px;border-radius:8px;z-index:100}.skip:focus{left:8px}
+/* nav */
+.nav{position:sticky;top:0;z-index:50;background:rgba(7,9,13,.92);border-bottom:1px solid var(--line);backdrop-filter:blur(10px)}
+.nav .wrap{display:flex;align-items:center;justify-content:space-between;height:76px;gap:16px}
+.logo{display:flex;align-items:center;gap:12px;color:#fff;text-decoration:none;font:600 1.3rem 'Playfair Display',serif}
+.logo svg{width:34px;height:38px}
+.menu{display:flex;align-items:center;gap:4px}
+.menu a.l{padding:9px 14px;color:var(--body);text-decoration:none;font-weight:500;font-size:.95rem;border-bottom:2px solid transparent;transition:color .15s,border-color .15s}
+.menu a.l:hover,.menu a.l[aria-current=true]{color:var(--gold);border-color:var(--gold)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:48px;padding:0 24px;border-radius:999px;border:0;background:var(--goldgrad);color:#1a1204;font:700 1rem Inter,sans-serif;text-decoration:none;cursor:pointer;transition:filter .15s,transform .15s;box-shadow:0 8px 24px rgba(201,151,47,.28)}
+.btn:hover{filter:brightness(1.08)}.btn:active{transform:translateY(1px)}.btn[disabled]{opacity:.7;cursor:not-allowed}
+.btn.sm{min-height:42px;padding:0 20px;font-size:.92rem;margin-left:8px}
+.burger{display:none;min-width:44px;min-height:44px;border:1px solid var(--line);border-radius:12px;background:transparent;color:var(--gold);cursor:pointer}
+/* hero */
+.hero{padding:64px 0 72px;background:radial-gradient(900px 500px at 78% 30%,rgba(226,188,98,.12),transparent 60%),var(--bg)}
+.hero .grid{display:grid;grid-template-columns:1.05fr .95fr;gap:48px;align-items:center}
+.pill{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--gold2);color:var(--gold);border-radius:999px;padding:6px 16px;font-size:.88rem;margin-bottom:22px}
+.hero .lead{margin-top:18px;font-size:1.1rem;max-width:520px}
+.check{margin-top:30px;max-width:560px;padding:22px;border:1px solid var(--gold2);border-radius:24px;background:linear-gradient(180deg,rgba(255,255,255,.07),rgba(255,255,255,.02));box-shadow:0 30px 70px rgba(0,0,0,.55)}
+.check label{display:block;font-weight:600;color:var(--h);margin-bottom:12px}
+.plate{display:flex;align-items:stretch;border:2px solid #3b4658;border-radius:14px;overflow:hidden;background:#0A0E14;transition:border-color .15s,box-shadow .15s}
+.plate:focus-within{border-color:var(--gold);box-shadow:0 0 0 4px rgba(226,188,98,.25)}
+.plate.bad{border-color:var(--fail);box-shadow:0 0 0 4px rgba(220,38,38,.25)}
+.gb{width:54px;background:#1D4ED8;color:#fff;font:700 .8rem/1 Inter;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px}
+.gb i{width:20px;height:20px;border:2px dotted #FFD520;border-radius:50%}
+.plate input{flex:1;min-width:0;border:0;background:transparent;font:700 clamp(1.5rem,4.5vw,2.1rem)/1 Inter,sans-serif;text-transform:uppercase;letter-spacing:.08em;color:var(--gold);padding:18px 16px;outline:0}
+.plate input::placeholder{color:#8f7a42;opacity:.75}
+.chips{display:flex;flex-wrap:wrap;gap:8px 18px;margin:16px 4px;font-size:.88rem;color:var(--body)}
+.chips span{display:flex;align-items:center;gap:7px}.chips svg{color:var(--gold)}
+.check .btn{width:100%;min-height:60px;font-size:1.1rem}
+.spin{width:18px;height:18px;border:3px solid rgba(26,18,4,.35);border-top-color:#1a1204;border-radius:50%;animation:sp .7s linear infinite;display:none}
+.loading .spin{display:block}@keyframes sp{to{transform:rotate(360deg)}}
+.help{margin:12px 4px 0;font-size:.85rem;color:var(--muted)}
+.msg{margin-top:10px;font-size:.92rem}
+.msg.err{color:#FCA5A5;background:rgba(220,38,38,.12);border:1px solid rgba(220,38,38,.4);padding:10px 14px;border-radius:12px}
+.msg.ok{color:var(--body)}
+/* stage */
+.stage{position:relative;padding-top:30px}
+.car{display:block;position:absolute;left:-12%;top:28px;width:88%;height:auto;aspect-ratio:602/350;object-fit:cover;opacity:.98;z-index:0;border-radius:20px;box-shadow:0 18px 42px rgba(0,0,0,.32)}
+.rep{position:relative;z-index:1;margin-left:18%;background:var(--paper);color:var(--ink2);border-radius:22px;padding:20px;box-shadow:0 30px 70px rgba(0,0,0,.6);transform:rotate(1.5deg)}
+.tag{display:inline-block;font-size:.75rem;font-weight:600;background:#FEF3C7;color:#92400E;padding:3px 10px;border-radius:99px}
+.rep .top{display:flex;justify-content:space-between;align-items:center;gap:8px;margin-bottom:12px}
+.rep h3{color:var(--ink)}.rep b{color:var(--ink)}
+.badge{display:inline-flex;align-items:center;gap:6px;font-weight:700;font-size:.85rem;padding:5px 12px;border-radius:99px}
+.badge.pass{background:#DCFCE7;color:var(--pass)}.badge.fail{background:#FEE2E2;color:var(--fail)}.badge.warn{background:#FEF3C7;color:#92400E}
+.status{display:flex;justify-content:space-between;align-items:center;gap:12px;background:#DCFCE7;border-radius:14px;padding:14px 16px;margin:12px 0}
+.status small{display:block;color:var(--ink2);font-size:.8rem}.status strong{color:var(--pass);font-size:1.2rem}
+.kv{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:12px 0}.kv small{display:block;color:#667085;font-size:.8rem}
+.rep .note{margin:0;font-size:.82rem;color:#667085}
+/* value strip */
+.strip{border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:var(--bg2);padding:28px 0}
+.strip .wrap{display:grid;grid-template-columns:repeat(4,1fr);gap:24px}
+.strip .it{display:flex;gap:14px;align-items:center}
+.ico{flex:none;width:48px;height:48px;border:1.5px solid var(--gold2);border-radius:50%;display:grid;place-items:center;color:var(--gold)}
+.strip h3{font-size:.98rem}.strip p{font-size:.85rem;color:var(--muted)}
+/* highlights */
+.hl{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.hl>div{padding:26px;background:var(--panel);border:1px solid var(--line);border-radius:18px;transition:border-color .2s}
+.hl>div:hover{border-color:var(--gold2)}
+.hl .ico{margin-bottom:14px;border-radius:14px}.hl p{margin-top:6px;font-size:.95rem}
+/* steps */
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;counter-reset:s}
+.step{position:relative;padding-top:22px;border-top:2px solid var(--line)}
+.step::before{counter-increment:s;content:counter(s);position:absolute;top:-18px;left:0;width:34px;height:34px;border-radius:50%;background:var(--goldgrad);color:#1a1204;font-weight:700;display:grid;place-items:center}
+.step h3{margin-top:12px}.step p{margin-top:6px;font-size:.95rem}
+/* report preview */
+.report{display:grid;grid-template-columns:1fr 1.3fr;gap:24px}
+.card{background:var(--paper);border-radius:20px;padding:26px;color:var(--ink2)}
+.card h3{color:var(--ink)}.big{font:700 1.9rem Inter;color:var(--ink)}
+.tl{list-style:none;margin:16px 0 0;padding:0 0 0 22px;border-left:2px solid var(--pline)}
+.tl li{position:relative;padding:0 0 22px 14px}.tl li:last-child{padding-bottom:0}
+.tl li::before{content:"";position:absolute;left:-30px;top:5px;width:14px;height:14px;border-radius:50%;background:#fff;border:3px solid var(--pass)}
+.tl li.f::before{border-color:var(--fail)}
+.tl .d{font-weight:600;color:var(--ink)}.tl .m{font-size:.9rem;color:#667085}
+.adv{margin-top:8px;font-size:.88rem;display:flex;gap:8px;align-items:flex-start}
+.chart{width:100%;height:auto;margin-top:8px}
+.card .note{font-size:.85rem;color:#667085;margin-top:14px}
+/* table */
+.tw{overflow-x:auto;border:1px solid var(--line);border-radius:18px;background:var(--panel)}
+table{border-collapse:collapse;width:100%;min-width:560px}
+th,td{text-align:left;padding:15px 20px;border-bottom:1px solid var(--line);font-size:.95rem}
+thead th{color:var(--gold);font-weight:600}tbody th{color:var(--h);font-weight:500}tr:last-child>*{border-bottom:0}
+.y{color:#4ADE80;font-weight:600}.n{color:#CBD5E1;font-weight:600}
+.after{margin-top:14px;font-size:.88rem;color:var(--muted)}
+/* faq */
+.faq{max-width:780px}
+details{border-bottom:1px solid var(--line)}
+summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:16px;padding:20px 4px;font-weight:600;color:var(--h);font-size:1.05rem;min-height:48px}
+summary::-webkit-details-marker{display:none}
+summary svg{flex:none;color:var(--gold);transition:transform .2s}details[open] summary svg{transform:rotate(180deg)}
+details .a{padding:0 4px 20px;max-width:680px}details[open] .a{animation:fd .2s ease}@keyframes fd{from{opacity:0}to{opacity:1}}
+/* cta */
+.cta{text-align:center;padding:84px 0;background:radial-gradient(700px 300px at 50% 0,rgba(226,188,98,.14),transparent 70%),#0A0F17;border-top:1px solid var(--line)}
+.cta p{margin:14px auto 28px;max-width:520px}
+/* footer */
+footer{background:#05070A;border-top:1px solid var(--line);padding:56px 0 32px;font-size:.92rem;color:var(--muted)}
+.fg{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:32px}
+footer h3{font-size:.95rem;margin-bottom:12px}footer ul{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+footer a{color:var(--body);text-decoration:none}footer a:hover{color:var(--gold);text-decoration:underline}
+.legal{margin-top:36px;padding-top:20px;border-top:1px solid var(--line);font-size:.85rem}
+@media(max-width:960px){
+.hero .grid,.report{grid-template-columns:1fr}.hero{padding:36px 0 56px}
+.stage{padding-top:0}.car{display:block;position:relative;left:auto;top:auto;width:100%;height:auto;aspect-ratio:602/350;object-fit:cover;margin:0 0 -8px;opacity:1;border-radius:18px;box-shadow:0 12px 32px rgba(0,0,0,.24)}.rep{margin-left:0;transform:none}
+.strip .wrap,.hl{grid-template-columns:1fr 1fr}.steps{grid-template-columns:1fr}.fg{grid-template-columns:1fr 1fr}
+.burger{display:inline-grid;place-items:center}
+.menu{display:none;position:absolute;top:76px;left:0;right:0;background:var(--bg);border-bottom:1px solid var(--line);flex-direction:column;align-items:stretch;padding:12px 24px 22px}
+.menu.open{display:flex}.menu a.l{padding:14px 8px;border:0}.btn.sm{margin:8px 0 0}
+section{padding:60px 0}}
+@media(max-width:560px){.strip .wrap,.hl,.fg{grid-template-columns:1fr}.wrap{padding:0 18px}.check{padding:16px}.gb{width:46px}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+
+/* Warm, accessible light theme is the default. Theme changes apply site-wide. */
+:root{
+ --bg:#FBF5EC;--bg2:#F3E8D9;--panel:#FFF9F1;--line:#E5D4BF;
+ --gold:#81533D;--gold2:#B77B5C;--goldgrad:linear-gradient(135deg,#E9B99A,#D7A68B);
+ --h:#392D29;--body:#65554D;--muted:#88766B;
+ --paper:#FFFDF8;--ink:#392D29;--ink2:#65554D;--pline:#E9DCCB;
+ --pass:#24734B;--fail:#B93838;--warn:#9B5B13;--info:#65554D;--blue:#2563EB;
+ color-scheme:light;
+}
+html{background:var(--bg)}
+body{background:var(--bg);color:var(--body)}
+body::before{background:var(--bg)}
+h1,h2,h3{color:var(--h)}
+a{color:#87513A}
+.nav{background:rgba(251,245,236,.94);border-color:var(--line)}
+.logo{color:var(--h)}
+.menu a.l{color:var(--body)}
+.menu a.l:hover,.menu a.l[aria-current=true]{color:#87513A;border-color:var(--gold2)}
+.burger{color:#87513A}
+.hero{background:radial-gradient(900px 500px at 78% 30%,rgba(215,166,139,.23),transparent 60%),var(--bg)}
+.pill{border-color:#C89B7E;color:#87513A;background:rgba(255,255,255,.28)}
+.check{background:linear-gradient(180deg,rgba(255,255,255,.76),rgba(255,249,241,.92));border-color:#D5B49C;box-shadow:0 22px 55px rgba(99,66,45,.12)}
+.check label{color:var(--h)}
+.plate{background:#FFFDF8;border-color:#D8C5B2}
+.plate input{color:#49372E}
+.plate input::placeholder{color:#A58A78}
+.plate:focus-within{border-color:#B77B5C;box-shadow:0 0 0 4px rgba(183,123,92,.18)}
+.gb{background:#4C5B48}
+.chips{color:var(--body)}
+.chips svg{color:#8D654C}
+.msg.err{color:#9E2F2F;background:#FFF0EC;border-color:#E7B7AA}
+.msg.ok{color:var(--body)}
+.strip{background:#F2E5D6;border-color:var(--line)}
+.ico{border-color:#C89B7E;color:#87513A}
+.hl>div{background:var(--panel);border-color:var(--line)}
+.hl>div:hover{border-color:#C89B7E}
+.step{border-color:var(--line)}
+.tw{background:var(--panel);border-color:var(--line)}
+th,td{border-color:var(--line)}
+thead th{color:#87513A}tbody th{color:var(--h)}
+.y{color:#24734B}.n{color:#65554D}
+.faq details{border-color:var(--line)}
+summary{color:var(--h)}summary svg{color:#87513A}
+.cta{background:radial-gradient(700px 300px at 50% 0,rgba(215,166,139,.24),transparent 70%),#F3E8D9;border-color:var(--line)}
+footer{background:#EDE0D0;border-color:var(--line);color:#776458}
+footer a{color:#65554D}footer a:hover{color:#87513A}
+.legal{border-color:var(--line)}
+.theme-toggle{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:42px;padding:0 13px;border:1px solid #D7C2AE;border-radius:999px;background:#FFF9F1;color:#624638;font:600 .9rem Inter,system-ui,sans-serif;cursor:pointer;white-space:nowrap;transition:background .2s,border-color .2s,transform .2s}
+.theme-toggle:hover{background:#F4E6D8;border-color:#B77B5C}
+.theme-icon{font-size:1.1rem;line-height:1}
+/* Dark theme: toggled by the menu button and saved for the next visit. */
+html[data-theme="dark"]{color-scheme:dark;--bg:#101417;--bg2:#171E20;--panel:#1D2627;--line:#354143;--gold:#E7C18A;--gold2:#B98A59;--goldgrad:linear-gradient(135deg,#F0D4A6,#B98A59);--h:#F7EEE3;--body:#C9C1B7;--muted:#A59A8D;--paper:#F5F0E8;--ink:#292522;--ink2:#5F554C;--pline:#E1D7C9;--pass:#24734B;--fail:#B93838;--warn:#9B5B13;--info:#65554D}
+html[data-theme="dark"] body,html[data-theme="dark"] html{background:var(--bg);color:var(--body)}
+html[data-theme="dark"] body::before{background:var(--bg)}
+html[data-theme="dark"] .nav{background:rgba(16,20,23,.94)}
+html[data-theme="dark"] .logo{color:#F7EEE3}
+html[data-theme="dark"] .menu a.l{color:var(--body)}
+html[data-theme="dark"] .menu a.l:hover,html[data-theme="dark"] .menu a.l[aria-current=true]{color:var(--gold);border-color:var(--gold)}
+html[data-theme="dark"] .burger{color:var(--gold)}
+html[data-theme="dark"] .hero{background:radial-gradient(900px 500px at 78% 30%,rgba(231,193,138,.12),transparent 60%),var(--bg)}
+html[data-theme="dark"] .pill{border-color:var(--gold2);color:var(--gold);background:transparent}
+html[data-theme="dark"] .check{background:linear-gradient(180deg,rgba(255,255,255,.07),rgba(255,255,255,.02));border-color:var(--gold2);box-shadow:0 30px 70px rgba(0,0,0,.4)}
+html[data-theme="dark"] .check label{color:var(--h)}
+html[data-theme="dark"] .plate{background:#0A0E14;border-color:#3B4658}
+html[data-theme="dark"] .plate input{color:var(--gold)}
+html[data-theme="dark"] .plate input::placeholder{color:#8F7A42}
+html[data-theme="dark"] .plate:focus-within{border-color:var(--gold);box-shadow:0 0 0 4px rgba(226,188,98,.25)}
+html[data-theme="dark"] .gb{background:#1D4ED8}
+html[data-theme="dark"] .chips svg{color:var(--gold)}
+html[data-theme="dark"] .msg.err{color:#FCA5A5;background:rgba(220,38,38,.12);border-color:rgba(220,38,38,.4)}
+html[data-theme="dark"] .strip{background:var(--bg2);border-color:var(--line)}
+html[data-theme="dark"] .ico{border-color:var(--gold2);color:var(--gold)}
+html[data-theme="dark"] .hl>div{background:var(--panel);border-color:var(--line)}
+html[data-theme="dark"] .hl>div:hover{border-color:var(--gold2)}
+html[data-theme="dark"] thead th{color:var(--gold)}
+html[data-theme="dark"] tbody th{color:var(--h)}
+html[data-theme="dark"] .n{color:#CBD5E1}
+html[data-theme="dark"] summary{color:var(--h)}
+html[data-theme="dark"] summary svg{color:var(--gold)}
+html[data-theme="dark"] .cta{background:radial-gradient(700px 300px at 50% 0,rgba(231,193,138,.12),transparent 70%),#11191C;border-color:var(--line)}
+html[data-theme="dark"] footer{background:#0B0F11;border-color:var(--line);color:var(--muted)}
+html[data-theme="dark"] footer a{color:var(--body)}
+html[data-theme="dark"] footer a:hover{color:var(--gold)}
+html[data-theme="dark"] .theme-toggle{background:#1D2627;color:#F7EEE3;border-color:#455254}
+html[data-theme="dark"] .theme-toggle:hover{background:#273334;border-color:var(--gold2)}
+@media(max-width:960px){
+ .menu{background:var(--bg);border-color:var(--line)}
+ .theme-toggle{align-self:flex-start;margin-top:8px}
+}
+@media(max-width:560px){
+ .nav .wrap{height:68px;gap:10px}.logo{font-size:1.08rem;gap:8px}.logo svg{width:29px;height:33px}
+ .menu{top:68px;padding:12px 18px 20px;max-height:calc(100dvh - 68px);overflow-y:auto}
+ section{padding:48px 0}.hero{padding:30px 0 44px}.hero .lead{font-size:1rem}
+ .plate input{padding:16px 12px;letter-spacing:.045em}.check .btn{min-height:54px}
+ .rep{padding:16px}.rep .top{align-items:flex-start;flex-wrap:wrap}.kv{gap:8px}
+ .card{padding:20px}.wrap{padding-left:16px;padding-right:16px}
+ th,td{padding:12px 14px}
+}
+@media(hover:none){.btn:hover,.theme-toggle:hover{filter:none}}
+
+
+
+/* Page-style navigation: show Home first, then one content page at a time. */
+html.js-enabled main > section:not(#top),
+html.js-enabled main > .strip { display:none; }
+html.js-enabled main > section.page-view-active,
+html.js-enabled main > .strip.page-view-active { display:block !important; }
+html.js-enabled main > section.page-view-active { animation:pageIn .22s ease-out; }
+@keyframes pageIn { from { opacity:.25; transform:translateY(5px); } to { opacity:1; transform:translateY(0); } }
+.menu a.l[aria-current="page"] { color:#87513A; border-color:var(--gold2); }
+html[data-theme="dark"] .menu a.l[aria-current="page"] { color:var(--gold); border-color:var(--gold); }
+@media(prefers-reduced-motion:reduce){main > section.page-view-active{animation:none}}
+
+
+/* Optional, consent-based browser push notification controls */
+.notify-card{margin-top:18px;padding:18px 20px;border:1px solid var(--gold2);border-radius:18px;background:linear-gradient(135deg,rgba(248,226,203,.78),rgba(255,248,237,.95));box-shadow:0 12px 30px rgba(91,58,39,.08);color:var(--ink)}
+.notify-card h3{margin:0 0 6px;font-size:1.06rem;color:var(--ink)}
+.notify-card p{margin:0 0 12px;color:var(--muted);font-size:.94rem;line-height:1.55}
+.notify-actions{display:flex;flex-wrap:wrap;align-items:center;gap:10px}
+.notify-btn{border:0;border-radius:999px;padding:11px 17px;font:inherit;font-weight:750;cursor:pointer;background:#8f563d;color:#fff;box-shadow:0 6px 16px rgba(143,86,61,.18)}
+.notify-btn:hover{filter:brightness(1.06)}
+.notify-btn:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+.notify-status{font-size:.88rem;color:var(--muted);min-height:1.3em}
+.notify-nav-btn{border:1px solid var(--gold2);border-radius:999px;background:transparent;color:var(--ink);padding:9px 12px;font:inherit;font-weight:700;cursor:pointer}
+html[data-theme="dark"] .notify-card{background:linear-gradient(135deg,rgba(78,55,45,.95),rgba(39,39,42,.98));border-color:#8c6b4d;color:var(--ink)}
+html[data-theme="dark"] .notify-card p,html[data-theme="dark"] .notify-status{color:var(--muted)}
+html[data-theme="dark"] .notify-btn{background:#d2a06b;color:#251b15}
+@media(max-width:620px){.notify-card{padding:15px}.notify-actions{align-items:stretch}.notify-btn{width:100%}.notify-status{width:100%}}
+
+
+/* Quality pass: accessibility, responsive controls, and print behaviour */
+.official-fallback{margin:13px 4px 0;font-size:.9rem;color:var(--muted)}
+.official-fallback a{font-weight:700;text-underline-offset:3px}
+button:disabled{cursor:wait;opacity:.68}
+.notify-btn:disabled{cursor:wait;opacity:.65}
+.menu a.l[aria-current="page"]{font-weight:750}
+@media(max-width:960px){
+  .menu .notify-nav-btn,.menu .theme-toggle{width:100%;justify-content:center}
+  .menu .notify-nav-btn{margin-top:8px}
+}
+@media(max-width:560px){
+  .nav .wrap{min-height:68px;height:auto;min-height:68px}
+  .hero .grid{gap:28px}
+  .notify-card{overflow-wrap:anywhere}
+  .rep{width:100%}
+  .report{min-width:0}
+  .tw{max-width:100%}
+  .tw table{min-width:520px}
+}
+@media print{
+  .nav,.notify-card,.burger,.theme-toggle,.notify-nav-btn,.btn,.strip{display:none!important}
+  html,body{background:#fff!important;color:#222!important}
+  main>section{display:block!important;padding:24px 0!important;break-inside:avoid}
+  h1,h2,h3,p,li,td,th{color:#222!important}
+  footer{background:#fff!important;color:#222!important}
+}
+
+
+/* Live results dashboard: hidden until a connected backend returns real data. */
+.live-results{margin-top:22px;padding:clamp(16px,3vw,26px);border:1px solid var(--line);border-radius:22px;background:var(--paper);color:var(--ink);box-shadow:0 12px 36px rgba(0,0,0,.08);min-width:0}
+.live-results[hidden]{display:none!important}.results-head{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;margin-bottom:18px}.results-head h2{font-size:clamp(1.35rem,3vw,1.9rem);margin:5px 0}.results-head p,.panel-help{color:var(--muted);font-size:.9rem;margin:0}.result-kicker{font-size:.72rem;font-weight:800;letter-spacing:.14em;color:var(--gold)}.clear-results{border:1px solid var(--line);border-radius:10px;background:transparent;color:inherit;padding:9px 12px;cursor:pointer}.vehicle-cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin-bottom:14px}.vehicle-card{border:1px solid var(--line);border-radius:14px;padding:14px;min-width:0}.vehicle-card small{display:block;color:var(--muted);font-size:.78rem;margin-bottom:5px}.vehicle-card strong{display:block;overflow-wrap:anywhere;font-size:1rem}.result-panel{border:1px solid var(--line);border-radius:15px;padding:16px;margin-top:12px;min-width:0}.result-panel h3{margin:0 0 5px;font-size:1.05rem}.panel-help{margin-bottom:12px}.table-scroll{overflow-x:auto;max-width:100%}.history-table{border-collapse:collapse;width:100%;font-size:.88rem}.history-table th,.history-table td{text-align:left;padding:11px 10px;border-bottom:1px solid var(--line);white-space:nowrap}.history-table th{font-size:.78rem;color:var(--muted)}.result-badge{display:inline-block;padding:4px 8px;border-radius:999px;font-size:.76rem;font-weight:800}.result-badge.pass{background:#dcfce7;color:#166534}.result-badge.fail{background:#fee2e2;color:#991b1b}.results-columns{display:grid;grid-template-columns:1fr 1fr;gap:12px}.mileage-chart{display:flex;flex-direction:column;gap:10px}.mileage-row{display:grid;grid-template-columns:82px minmax(40px,1fr) auto;gap:9px;align-items:center;font-size:.8rem}.mileage-bar-wrap{height:10px;border-radius:99px;background:var(--line);overflow:hidden}.mileage-bar{height:100%;border-radius:99px;background:var(--gold)}.defect-list{display:grid;gap:9px}.defect-item{padding:11px;border:1px solid var(--line);border-radius:11px;font-size:.88rem}.defect-item p{margin:6px 0 0;overflow-wrap:anywhere}.defect-meta{display:flex;gap:8px;align-items:center;flex-wrap:wrap}.defect-type{font-size:.72rem;font-weight:800;text-transform:uppercase;letter-spacing:.04em;color:var(--muted)}.result-disclaimer{font-size:.8rem;color:var(--muted);margin:14px 0 0}.empty-state{color:var(--muted);font-size:.88rem;padding:8px 0}
+@media(max-width:620px){.vehicle-cards{grid-template-columns:repeat(2,minmax(0,1fr))}.results-columns{grid-template-columns:1fr}.results-head{flex-wrap:wrap}.history-table{font-size:.8rem}.history-table th,.history-table td{padding:9px 8px}.mileage-row{grid-template-columns:65px minmax(30px,1fr) auto}}
+
+
+/* FINAL NAVBAR FIX: prevent logo/link overlap and use a dropdown before space gets tight. */
+.nav{isolation:isolate}
+.nav .wrap{display:flex;align-items:center;gap:clamp(12px,1.5vw,24px);min-width:0}
+.logo{flex:0 0 auto;white-space:nowrap;line-height:1.15}
+.menu{flex:1 1 auto;min-width:0;display:flex;align-items:center;justify-content:flex-end;gap:clamp(2px,.35vw,6px)}
+.menu a.l{flex:0 0 auto;white-space:nowrap;padding:9px clamp(5px,.65vw,10px);font-size:clamp(.72rem,.78vw,.88rem);line-height:1.25}
+.menu .notify-nav-btn,.menu .theme-toggle,.menu .btn.sm{flex:0 0 auto;white-space:nowrap;margin-left:0;padding-left:clamp(9px,.8vw,14px);padding-right:clamp(9px,.8vw,14px);font-size:clamp(.74rem,.78vw,.86rem)}
+.menu .btn.sm{margin-left:2px}
+.burger{flex:0 0 44px}
+@media(max-width:1200px){
+ .nav .wrap{height:72px;min-height:72px;justify-content:space-between}
+ .burger{display:inline-grid;place-items:center;margin-left:auto}
+ .menu{display:none;position:absolute;top:72px;left:0;right:0;z-index:55;padding:14px max(20px,calc((100vw - var(--max))/2 + 24px)) 20px;background:var(--bg);border-top:1px solid var(--line);border-bottom:1px solid var(--line);box-shadow:0 18px 28px rgba(0,0,0,.18);max-height:calc(100dvh - 72px);overflow-y:auto;align-items:stretch;flex-direction:column;gap:5px}
+ .menu.open{display:flex}
+ .menu a.l{display:flex;width:100%;padding:12px 14px;font-size:.95rem;border:0;border-radius:10px;white-space:normal}
+ .menu a.l:hover,.menu a.l[aria-current=true]{background:rgba(226,188,98,.10)}
+ .menu .notify-nav-btn,.menu .theme-toggle,.menu .btn.sm{display:flex;width:100%;min-height:44px;justify-content:center;margin:4px 0 0;font-size:.92rem}
+ .menu .notify-nav-btn,.menu .theme-toggle{align-self:stretch}
+}
+@media(max-width:560px){
+ .nav .wrap{height:66px;min-height:66px;padding-left:16px;padding-right:16px;gap:10px}
+ .logo{font-size:1.03rem;gap:7px}
+ .logo svg{width:28px;height:32px}
+ .menu{top:66px;max-height:calc(100dvh - 66px);padding:12px 16px 18px}
+}
+
+
+/* Final navbar repair: avoid crowding/overlap on laptop, tablet and mobile */
+.nav{position:sticky;top:0;z-index:100}
+.nav .wrap{position:relative;display:flex;align-items:center;justify-content:space-between;gap:20px;min-width:0}
+.logo{flex:0 0 auto;white-space:nowrap;position:relative;z-index:2}
+.menu{flex:1 1 auto;min-width:0;display:flex;align-items:center;justify-content:flex-end;gap:clamp(4px,.65vw,12px)}
+.menu a.l{white-space:nowrap;padding:10px clamp(5px,.7vw,12px);font-size:clamp(.78rem,.88vw,.92rem)}
+.menu .notify-nav-btn,.menu .theme-toggle,.menu .btn.sm{flex:0 0 auto;white-space:nowrap}
+.burger{flex:0 0 44px}
+@media(max-width:1320px){
+ .nav .wrap{height:72px;min-height:72px}
+ .burger{display:inline-grid;place-items:center;margin-left:auto}
+ .menu{display:none;position:absolute;top:72px;left:0;right:0;z-index:120;max-height:calc(100vh - 72px);overflow-y:auto;flex-direction:column;align-items:stretch;justify-content:flex-start;gap:4px;padding:14px 22px 22px;background:var(--bg);border:1px solid var(--line);border-top:0;box-shadow:0 16px 28px rgba(0,0,0,.12)}
+ .menu.open{display:flex}
+ .menu a.l{display:block;white-space:normal;font-size:1rem;padding:12px 10px;border-bottom:1px solid var(--line)}
+ .menu .notify-nav-btn,.menu .theme-toggle,.menu .btn.sm{width:100%;justify-content:center;margin-top:6px;min-height:44px}
+}
+@media(max-width:560px){
+ .nav .wrap{height:66px;min-height:66px;padding-left:16px;padding-right:16px;gap:10px}
+ .logo{font-size:1rem;gap:7px}
+ .logo svg{width:28px;height:32px}
+ .menu{top:66px;max-height:calc(100dvh - 66px);padding:12px 16px 18px}
+}
+
+
+/* Definitive responsive navbar layout */
+.nav{position:sticky;top:0;z-index:100;background:rgba(251,245,236,.96);backdrop-filter:blur(12px)}
+.nav .wrap{display:flex;align-items:center;justify-content:space-between;gap:clamp(12px,1.4vw,22px);min-width:0;height:76px;position:relative}
+.nav .logo{flex:0 0 auto;display:flex;align-items:center;gap:10px;white-space:nowrap;min-width:max-content;font-size:clamp(1rem,1.25vw,1.25rem)}
+.nav .logo svg{flex:0 0 auto;width:34px;height:38px}
+.nav .menu{flex:1 1 auto;min-width:0;display:flex;align-items:center;justify-content:flex-end;gap:clamp(2px,.35vw,7px);position:static;background:transparent;border:0;box-shadow:none;padding:0;max-height:none;overflow:visible;flex-direction:row}
+.nav .menu a.l{flex:0 0 auto;white-space:nowrap;padding:10px clamp(5px,.55vw,9px);font-size:clamp(.75rem,.78vw,.88rem);line-height:1.2;border-bottom:2px solid transparent}
+.nav .menu .notify-nav-btn,.nav .menu .theme-toggle,.nav .menu .btn.sm{flex:0 0 auto;white-space:nowrap;margin:0;padding:11px clamp(9px,.8vw,14px);font-size:clamp(.78rem,.8vw,.9rem)}
+.nav .burger{display:none;flex:0 0 44px}
+@media(max-width:1450px){
+ .nav .wrap{height:72px;min-height:72px}
+ .nav .burger{display:inline-grid;place-items:center;margin-left:auto}
+ .nav .menu{display:none;position:absolute;top:72px;left:0;right:0;z-index:120;background:var(--bg);border:1px solid var(--line);border-top:0;box-shadow:0 16px 28px rgba(0,0,0,.14);padding:14px 22px 22px;max-height:calc(100dvh - 72px);overflow-y:auto;flex-direction:column;align-items:stretch;justify-content:flex-start;gap:4px}
+ .nav .menu.open{display:flex}
+ .nav .menu a.l{display:flex;width:100%;white-space:normal;padding:12px 14px;font-size:.96rem;border:0;border-radius:10px}
+ .nav .menu .notify-nav-btn,.nav .menu .theme-toggle,.nav .menu .btn.sm{display:flex;width:100%;min-height:44px;justify-content:center;margin-top:6px;font-size:.92rem}
+}
+@media(max-width:560px){
+ .nav .wrap{height:66px;min-height:66px;padding-left:16px;padding-right:16px;gap:10px}
+ .nav .logo{font-size:1rem;gap:7px}
+ .nav .logo svg{width:28px;height:32px}
+ .nav .menu{top:66px;padding:12px 16px 18px;max-height:calc(100dvh - 66px)}
+}
+  </style>
+  <!-- Web push notifications: replace YOUR_ONESIGNAL_APP_ID after creating a OneSignal Web app. -->
+  <script defer="" src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js">
+  </script>
+  <script>
+   document.documentElement.classList.add("js-enabled");
+  </script>
+ </head>
+ <body>
+  <a class="skip" href="#main">
+   Skip to main content
+  </a>
+  <header class="nav">
+   <div class="wrap">
+    <a aria-label="UK Vehicle Check home" class="logo" href="#top">
+     <svg aria-hidden="true" fill="none" stroke="#E2BC62" stroke-linejoin="round" stroke-width="2" viewbox="0 0 34 38">
+      <path d="M17 2l14 5v10c0 9-6 15-14 19C9 32 3 26 3 17V7z">
+      </path>
+      <path d="M9 21l1.6-4.4A2 2 0 0112.5 15h9a2 2 0 011.9 1.6L25 21v4h-2.4v-1.4H11.4V25H9z" fill="#E2BC62" stroke="none">
+      </path>
+     </svg>
+     UK Vehicle Check
+    </a>
+    <nav aria-label="Main" class="menu" id="menu">
+     <a aria-current="page" class="l" href="#top">
+      Home
+     </a>
+     <a class="l" href="#check">
+      Free MOT Check
+     </a>
+     <a class="l" href="#history">
+      MOT History
+     </a>
+     <a class="l" href="#report">
+      Sample Report
+     </a>
+     <a class="l" href="#mot-check-details">
+      What Is Included
+     </a>
+     <a class="l" href="#faq">
+      FAQs
+     </a>
+     <a class="l" href="#data-coverage">
+      DVSA Data
+     </a>
+     <button class="notify-nav-btn" data-push-optin="" type="button">
+      🔔 Updates
+     </button>
+     <a class="btn sm" href="#reg">
+      Check a Vehicle
+     </a>
+    </nav>
+    <button aria-label="Switch to dark mode" aria-pressed="false" class="theme-toggle" id="themeToggle" type="button">
+     <span aria-hidden="true" class="theme-icon">
+      ☾
+     </span>
+     <span class="theme-label">
+      Dark mode
+     </span>
+    </button>
+    <button aria-controls="menu" aria-expanded="false" aria-label="Open menu" class="burger" id="burger">
+     <svg aria-hidden="true" fill="none" height="22" stroke="currentColor" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24" width="22">
+      <path d="M4 7h16M4 12h16M4 17h16">
+      </path>
+     </svg>
+    </button>
+   </div>
+  </header>
+  <main id="main">
+   <section class="hero" id="top">
+    <div class="wrap grid">
+     <div>
+      <span class="pill">
+       <svg aria-hidden="true" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="16">
+        <path d="M12 3l8 3v6c0 5-3.500 8-8 9-4.500-1-8-4-8-9V6z">
+        </path>
+        <path d="M9 12l2 2 4-4">
+        </path>
+       </svg>
+       Official DVSA MOT data connection pending
+      </span>
+      <h1>
+       Free MOT Checker UK &ndash; Check MOT History &amp; Status
+      </h1>
+      <p class="lead">
+       Enter a UK vehicle registration to check MOT status and explore MOT history, expiry dates, test results, recorded mileage, failures and advisories. This website is being prepared to use the official DVSA MOT History API. Live results will only be available after API access is approved and the secure connection is configured.
+      </p>
+      <form class="check" id="form" novalidate="">
+       <label for="reg">
+        Vehicle registration number
+       </label>
+       <div class="plate" id="plate">
+        <span aria-hidden="true" class="gb">
+         <i>
+         </i>
+         UK
+        </span>
+        <input aria-describedby="help msg" autocapitalize="characters" autocomplete="off" id="reg" inputmode="text" maxlength="8" placeholder="ENTER REG" spellcheck="false" type="text"/>
+       </div>
+       <div aria-label="Information the checker can show" class="chips">
+        <span>
+         <svg aria-hidden="true" fill="none" height="16" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="16">
+          <path d="M12 3l8 3v6c0 5-3.500 8-8 9-4.500-1-8-4-8-9V6z">
+          </path>
+         </svg>
+         MOT Status
+        </span>
+        <span>
+         <svg aria-hidden="true" fill="none" height="16" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="16">
+          <path d="M6 3h9l4 4v14H6z">
+          </path>
+          <path d="M9 12h7M9 16h7">
+          </path>
+         </svg>
+         MOT History
+        </span>
+        <span>
+         <svg aria-hidden="true" fill="none" height="16" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="16">
+          <path d="M4 18a8 8 0 1116 0">
+          </path>
+          <path d="M12 18l4-6">
+          </path>
+         </svg>
+         Mileage
+        </span>
+        <span>
+         <svg aria-hidden="true" fill="none" height="16" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="16">
+          <path d="M12 3l10 18H2z">
+          </path>
+          <path d="M12 10v5">
+          </path>
+         </svg>
+         Advisories
+        </span>
+       </div>
+       <button class="btn" id="go" type="submit">
+        <span aria-hidden="true" class="spin">
+        </span>
+        <span id="gotxt">
+         Check Vehicle
+        </span>
+       </button>
+       <p class="help" id="help">
+        Letters and numbers only, for example AB12 CDE. We use only the registration number you enter.
+       </p>
+       <div aria-live="polite" class="msg" id="msg" role="status">
+       </div>
+       <p class="official-fallback">
+        Need an official record now?
+        <a href="https://www.gov.uk/check-mot-history" rel="noopener noreferrer" target="_blank">
+         Check MOT history on GOV.UK &nearrow;
+        </a>
+       </p>
+      </form>
+      <section aria-live="polite" class="live-results" hidden="" id="liveResults">
+       <div class="results-head">
+        <div>
+         <span class="result-kicker">
+          VEHICLE REPORT
+         </span>
+         <h2 id="resultTitle">
+          MOT check results
+         </h2>
+         <p id="resultSubtitle">
+          Results returned by the connected data service.
+         </p>
+        </div>
+        <button class="clear-results" id="clearResults" type="button">
+         Clear results
+        </button>
+       </div>
+       <div class="vehicle-cards" id="vehicleCards">
+       </div>
+       <div class="result-panel">
+        <h3>
+         Recorded MOT test history
+        </h3>
+        <p class="panel-help">
+         Test dates, results, expiry and mileage are shown where the connected service provides them.
+        </p>
+        <div class="table-scroll">
+         <table class="history-table">
+          <thead>
+           <tr>
+            <th>
+             Test date
+            </th>
+            <th>
+             Result
+            </th>
+            <th>
+             Mileage
+            </th>
+            <th>
+             Expiry date
+            </th>
+           </tr>
+          </thead>
+          <tbody id="historyRows">
+          </tbody>
+         </table>
+        </div>
+        <p class="panel-help" hidden="" id="noTests">
+         No test-history records were returned for this vehicle.
+        </p>
+       </div>
+       <div class="results-columns">
+        <div class="result-panel">
+         <h3>
+          Mileage history
+         </h3>
+         <p class="panel-help">
+          Recorded odometer readings from available MOT tests.
+         </p>
+         <div class="mileage-chart" id="mileageChart">
+         </div>
+        </div>
+        <div class="result-panel">
+         <h3>
+          Failures, defects &amp; advisories
+         </h3>
+         <p class="panel-help">
+          Descriptions and severity are shown as supplied by the data service.
+         </p>
+         <div class="defect-list" id="defectList">
+         </div>
+        </div>
+       </div>
+       <p class="result-disclaimer">
+        MOT records describe test results at the time of testing. They do not guarantee the vehicle&rsquo;s current condition. Check official records and arrange an independent inspection when appropriate.
+       </p>
+      </section>
+      <div aria-labelledby="notifyHeading" class="notify-card">
+       <h3 id="notifyHeading">
+        🔔 Get MOT tips &amp; website updates
+       </h3>
+       <p>
+        Opt in to useful MOT guides and website updates when push notifications are configured. You can turn notifications off in your browser settings at any time.
+       </p>
+       <div class="notify-actions">
+        <button class="notify-btn" data-push-optin="" type="button">
+         Enable notifications
+        </button>
+        <span aria-live="polite" class="notify-status" id="notifyStatus" role="status">
+         Notifications are optional and only start after you choose to allow them.
+        </span>
+       </div>
+      </div>
+     </div>
+     <div class="stage">
+      <img alt="Dark saloon car on a country road at sunset" class="car" decoding="async" fetchpriority="high" height="350" src="assets/hero-car.svg" width="602"/>
+      <div aria-label="Illustrative example of a result" class="rep">
+       <div class="top">
+        <span class="tag">
+         Demonstration only, not a real lookup
+        </span>
+       </div>
+       <div class="top">
+        <h3>
+         MOT Report
+        </h3>
+        <span class="badge pass">
+         &checkmark; Passed
+        </span>
+       </div>
+       <div class="status">
+        <div>
+         <small>
+          MOT status
+         </small>
+         <strong>
+          PASSED
+         </strong>
+        </div>
+        <div style="text-align:right">
+         <small>
+          Valid until
+         </small>
+         <b>
+          12 Mar 2027
+         </b>
+        </div>
+       </div>
+       <div class="kv">
+        <div>
+         <small>
+          Latest test result
+         </small>
+         <b>
+          Passed
+         </b>
+        </div>
+        <div>
+         <small>
+          Recorded mileage
+         </small>
+         <b>
+          48,210 miles
+         </b>
+        </div>
+        <div>
+         <small>
+          Advisories
+         </small>
+         <b>
+          2 noted
+         </b>
+        </div>
+        <div>
+         <small>
+          Vehicle
+         </small>
+         <b>
+          Example vehicle
+         </b>
+        </div>
+       </div>
+       <p class="note">
+        Sample data to show the layout of a report.
+       </p>
+      </div>
+     </div>
+    </div>
+   </section>
+   <div class="strip">
+    <div class="wrap">
+     <div class="it">
+      <span class="ico">
+       <svg aria-hidden="true" fill="none" height="22" stroke="currentColor" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="22">
+        <path d="M13 2L4 14h7l-1 8 9-12h-7z">
+        </path>
+       </svg>
+      </span>
+      <div>
+       <h3>
+        Simple to use
+       </h3>
+       <p>
+        One registration number, one search
+       </p>
+      </div>
+     </div>
+     <div class="it">
+      <span class="ico">
+       <svg aria-hidden="true" fill="none" height="22" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="22">
+        <path d="M12 3l8 3v6c0 5-3.500 8-8 9-4.500-1-8-4-8-9V6z">
+        </path>
+       </svg>
+      </span>
+      <div>
+       <h3>
+        Official verification
+       </h3>
+       <p>
+        Verify current records with GOV.UK
+       </p>
+      </div>
+     </div>
+     <div class="it">
+      <span class="ico">
+       <svg aria-hidden="true" fill="none" height="22" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="22">
+        <rect height="9" rx="2" width="14" x="5" y="11">
+        </rect>
+        <path d="M8 11V8a4 4 0 018 0v3">
+        </path>
+       </svg>
+      </span>
+      <div>
+       <h3>
+        Privacy note
+       </h3>
+       <p>
+        No account needed to run a check
+       </p>
+      </div>
+     </div>
+     <div class="it">
+      <span class="ico">
+       <svg aria-hidden="true" fill="none" height="22" stroke="currentColor" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24" width="22">
+        <path d="M10 14a5 5 0 007 0l3-3a5 5 0 00-7-7l-1 1">
+        </path>
+        <path d="M14 10a5 5 0 00-7 0l-3 3a5 5 0 007 7l1-1">
+        </path>
+       </svg>
+      </span>
+      <div>
+       <h3>
+        Cross-check
+       </h3>
+       <p>
+        Link to the official GOV.UK checker
+       </p>
+      </div>
+     </div>
+    </div>
+   </div>
+   <section id="check">
+    <div class="wrap">
+     <div class="sec-head">
+      <h2>
+       What Does a Free MOT Check Show?
+      </h2>
+      <p>
+       Use a UK MOT history check to review available test results, MOT status, expiry date, recorded mileage, defects and advisories for a vehicle registration.
+      </p>
+     </div>
+     <div class="hl">
+      <div>
+       <span class="ico">
+        <svg aria-hidden="true" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" viewbox="0 0 24 24" width="24">
+         <path d="M12 3l8 3v6c0 5-3.500 8-8 9-4.500-1-8-4-8-9V6z">
+         </path>
+         <path d="M9 12l2 2 4-4">
+         </path>
+        </svg>
+       </span>
+       <h3>
+        MOT status
+       </h3>
+       <p>
+        See whether the vehicle currently has a valid MOT.
+       </p>
+      </div>
+      <div>
+       <span class="ico">
+        <svg aria-hidden="true" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-width="1.8" viewbox="0 0 24 24" width="24">
+         <rect height="16" rx="2" width="18" x="3" y="5">
+         </rect>
+         <path d="M3 10h18M8 3v4M16 3v4">
+         </path>
+        </svg>
+       </span>
+       <h3>
+        MOT expiry date
+       </h3>
+       <p>
+        Find out when the current MOT runs out.
+       </p>
+      </div>
+      <div>
+       <span class="ico">
+        <svg aria-hidden="true" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-width="1.8" viewbox="0 0 24 24" width="24">
+         <path d="M4 18a8 8 0 1116 0">
+         </path>
+         <path d="M12 18l4-6">
+         </path>
+        </svg>
+       </span>
+       <h3>
+        Recorded mileage
+       </h3>
+       <p>
+        Odometer readings noted at each MOT test.
+       </p>
+      </div>
+      <div>
+       <span class="ico">
+        <svg aria-hidden="true" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" viewbox="0 0 24 24" width="24">
+         <path d="M9 11l3 3 8-8">
+         </path>
+         <path d="M20 12v7a2 2 0 01-2 2H6a2 2 0 01-2-2V6a2 2 0 012-2h9">
+         </path>
+        </svg>
+       </span>
+       <h3>
+        Test results
+       </h3>
+       <p>
+        Pass and fail outcomes for past MOT tests.
+       </p>
+      </div>
+      <div>
+       <span class="ico">
+        <svg aria-hidden="true" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" viewbox="0 0 24 24" width="24">
+         <path d="M12 3l10 18H2z">
+         </path>
+         <path d="M12 10v5M12 18h.01">
+         </path>
+        </svg>
+       </span>
+       <h3>
+        Defects and advisories
+       </h3>
+       <p>
+        Items testers noted, where the record includes them.
+       </p>
+      </div>
+      <div>
+       <span class="ico">
+        <svg aria-hidden="true" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" viewbox="0 0 24 24" width="24">
+         <path d="M5 17h14M6 17l1.5-6A2 2 0 019.400 9.500h5.200a2 2 0 011.900 1.500L18 17">
+         </path>
+         <circle cx="8" cy="17" r="1.5">
+         </circle>
+         <circle cx="16" cy="17" r="1.5">
+         </circle>
+        </svg>
+       </span>
+       <h3>
+        Vehicle details
+       </h3>
+       <p>
+        Basic vehicle information from authorised sources.
+       </p>
+      </div>
+     </div>
+    </div>
+   </section>
+   <section class="alt" id="history">
+    <div class="wrap">
+     <div class="sec-head">
+      <h2>
+       How to Check MOT History Online by Registration
+      </h2>
+      <p>
+       Enter a UK number plate to look up available MOT records. The result depends on a working data connection and the records held for that vehicle.
+      </p>
+     </div>
+     <div class="steps">
+      <div class="step">
+       <h3>
+        Enter the registration
+       </h3>
+       <p>
+        Type the registration number into the search box.
+       </p>
+      </div>
+      <div class="step">
+       <h3>
+        Retrieve available information
+       </h3>
+       <p>
+        We request the records held for that registration.
+       </p>
+      </div>
+      <div class="step">
+       <h3>
+        Review the MOT history
+       </h3>
+       <p>
+        Read the returned MOT history and vehicle details.
+       </p>
+      </div>
+     </div>
+    </div>
+   </section>
+   <section id="report">
+    <div class="wrap">
+     <div class="sec-head">
+      <h2>
+       MOT History Report: Test Results, Mileage and Advisories
+      </h2>
+      <p>
+       Example report layout only. The displayed figures are fictional and do not represent a real vehicle or live MOT result.
+      </p>
+     </div>
+     <div class="report">
+      <div class="card">
+       <span class="tag">
+        Demonstration only
+       </span>
+       <h3 style="margin-top:14px">
+        Current MOT status
+       </h3>
+       <div style="margin:10px 0">
+        <span class="badge pass">
+         &checkmark; MOT valid
+        </span>
+       </div>
+       <small style="color:#667085">
+        MOT expiry date
+       </small>
+       <div class="big">
+        12 Mar 2027
+       </div>
+       <p class="note">
+        Current status is separate from the test history. A pass does not mean a vehicle is mechanically safe.
+       </p>
+       <h3 style="margin-top:22px">
+        Recorded mileage
+       </h3>
+       <svg aria-label="Example chart of mileage rising across four MOT tests, from 21,400 to 48,210 miles" class="chart" role="img" viewbox="0 0 300 120">
+        <path d="M20 100H290M20 60H290M20 20H290" stroke="#E4E7EC">
+        </path>
+        <polyline fill="none" points="30,96 110,70 200,48 280,24" stroke="#2563EB" stroke-linejoin="round" stroke-width="3">
+        </polyline>
+        <g fill="#2563EB">
+         <circle cx="30" cy="96" r="4">
+         </circle>
+         <circle cx="110" cy="70" r="4">
+         </circle>
+         <circle cx="200" cy="48" r="4">
+         </circle>
+         <circle cx="280" cy="24" r="4">
+         </circle>
+        </g>
+       </svg>
+       <p class="note">
+        Recorded mileage reflects available test records and is not proof of mileage authenticity. A chart is only drawn when enough real records exist.
+       </p>
+      </div>
+      <div class="card">
+       <h3>
+        MOT test history
+       </h3>
+       <ul class="tl">
+        <li>
+         <div class="d">
+          12 Mar 2026
+          <span class="badge pass" style="margin-left:6px">
+           Passed
+          </span>
+         </div>
+         <div class="m">
+          48,210 miles
+         </div>
+         <div class="adv">
+          <span class="badge warn">
+           Advisory
+          </span>
+          <span>
+           Example: tyre wearing close to the legal limit
+          </span>
+         </div>
+        </li>
+        <li class="f">
+         <div class="d">
+          28 Feb 2026
+          <span class="badge fail" style="margin-left:6px">
+           Failed
+          </span>
+         </div>
+         <div class="m">
+          48,090 miles
+         </div>
+         <div class="adv">
+          <span class="badge fail">
+           Defect
+          </span>
+          <span>
+           Example: brake light not working
+          </span>
+         </div>
+        </li>
+        <li>
+         <div class="d">
+          04 Mar 2025
+          <span class="badge pass" style="margin-left:6px">
+           Passed
+          </span>
+         </div>
+         <div class="m">
+          36,500 miles
+         </div>
+        </li>
+        <li>
+         <div class="d">
+          09 Mar 2024
+          <span class="badge pass" style="margin-left:6px">
+           Passed
+          </span>
+         </div>
+         <div class="m">
+          21,400 miles
+         </div>
+        </li>
+       </ul>
+       <p class="note">
+        When live lookup is implemented, each report should identify its data source, any relevant update timing, and link to the official GOV.UK checker.
+       </p>
+      </div>
+     </div>
+     <div class="sec-head" style="margin-top:36px">
+      <h2>
+       How to Use Our MOT Checker
+      </h2>
+      <p>
+       Use the vehicle registration number to start an MOT check. A vehicle MOT checker can help you review available MOT status information, the MOT expiry date, previous test results, recorded mileage and any listed failures or advisories. Check that the registration is entered correctly, and compare the results with the vehicle and documents you are inspecting.
+      </p>
+      <h3 style="margin-top:18px">
+       What is the difference between an MOT check and an MOT history check?
+      </h3>
+      <p>
+       An MOT status check helps you find out whether a vehicle has a current MOT and when it expires. An MOT history check focuses on previous MOT tests, including recorded pass or fail results, mileage and advisories where available. Use the official GOV.UK service to verify government MOT records.
+      </p>
+      <h2>
+       Used Car MOT Check: Mileage History, Failures and Advisories
+      </h2>
+      <p>
+       Before buying a used car, use an MOT history check to review previous test results, recorded mileage, MOT failures and advisories. Repeated defects or unusual changes in mileage readings may be reasons to ask the seller more questions or arrange an independent vehicle inspection. An MOT history check is one useful part of a used-car check, but it does not replace a mechanical inspection or confirm a vehicle's full history.
+      </p>
+      <h3 style="margin-top:18px">
+       What can cause a vehicle to fail an MOT test?
+      </h3>
+      <p>
+       Common MOT failure areas include tyres, lights, brakes, steering, suspension and exhaust emissions. Review any recorded MOT defects and advisories carefully, and ask a qualified mechanic to assess concerns before you buy. The records available depend on the vehicle and the data source.
+      </p>
+      <h3 style="margin-top:18px">
+       Can MOT mileage history help identify clocking?
+      </h3>
+      <p>
+       MOT mileage history lets you compare odometer readings recorded at different tests. An unexpected drop or inconsistency can warrant further checks, although mileage records alone cannot prove that a vehicle has been clocked.
+      </p>
+      <h3 style="margin-top:18px">
+       Is an MOT check the same as a full vehicle history check?
+      </h3>
+      <p>
+       No. An MOT check focuses on MOT status and test history, including results, recorded mileage and advisories where available. A broader vehicle history check may cover categories such as finance, write-off records or vehicle specifications. Do not assume those details are included here unless the service explicitly provides them.
+      </p>
+      <h2>
+       Check MOT Status and Expiry Date Before You Buy
+      </h2>
+      <p>
+       A vehicle MOT check can help you review the recorded test history before buying a used car. Compare previous MOT pass and fail results, recorded mileage and repeated advisories, and confirm the current MOT expiry date using an up-to-date data source.
+      </p>
+      <h3 style="margin-top:18px">
+       What is the difference between an MOT status check and an MOT history check?
+      </h3>
+      <p>
+       An MOT status check focuses on whether a vehicle has a current MOT and when it expires. An MOT history check helps you review earlier test dates, pass or fail outcomes, mileage readings and recorded defects or advisories where available.
+      </p>
+      <h3 style="margin-top:18px">
+       Can I check MOT history using a number plate?
+      </h3>
+      <p>
+       Yes. The UK government&rsquo;s MOT history service uses the vehicle registration number. This independent website is intended to help users review available information, but its lookup must be connected to a functioning data source before it can return real vehicle records.
+      </p>
+      <h3 style="margin-top:18px">
+       Where can I verify an MOT result?
+      </h3>
+      <p>
+       For the official record, use the
+       <a href="https://www.gov.uk/check-mot-history" rel="noopener noreferrer">
+        GOV.UK MOT history checker
+       </a>
+       or the
+       <a href="https://www.gov.uk/check-mot-status" rel="noopener noreferrer">
+        GOV.UK MOT status checker
+       </a>
+       .
+      </p>
+     </div>
+    </div>
+   </section>
+   <section class="alt">
+    <div class="wrap">
+     <div class="sec-head">
+      <h2>
+       This service and the official checker
+      </h2>
+      <p>
+       Use both to cross-check a vehicle.
+      </p>
+     </div>
+     <div class="tw">
+      <table>
+       <thead>
+        <tr>
+         <th scope="col">
+          Information
+         </th>
+         <th scope="col">
+          UK Vehicle Check
+         </th>
+         <th scope="col">
+          Official GOV.UK service
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <th scope="row">
+          MOT status and expiry date
+         </th>
+         <td class="y">
+          Shown where available
+         </td>
+         <td class="y">
+          Yes
+         </td>
+        </tr>
+        <tr>
+         <th scope="row">
+          MOT test results and mileage
+         </th>
+         <td class="y">
+          Shown where available
+         </td>
+         <td class="y">
+          Yes
+         </td>
+        </tr>
+        <tr>
+         <th scope="row">
+          Defects and advisories
+         </th>
+         <td class="y">
+          Shown where the record includes them
+         </td>
+         <td class="y">
+          Yes
+         </td>
+        </tr>
+        <tr>
+         <th scope="row">
+          Official government record
+         </th>
+         <td class="n">
+          No, independent service
+         </td>
+         <td class="y">
+          Yes
+         </td>
+        </tr>
+       </tbody>
+      </table>
+     </div>
+     <p class="after">
+      This site shows the records its data source returns. For the official record, use the GOV.UK MOT checker.
+     </p>
+    </div>
+   </section>
+   <section class="alt" id="understanding-results">
+    <div class="wrap">
+     <div class="sec-head">
+      <h2>
+       How to Read an MOT Check Result
+      </h2>
+      <p>
+       An MOT check is useful for understanding a vehicle's recorded test history. Read the details in context and verify important information using the official service.
+      </p>
+     </div>
+     <div class="hl">
+      <div>
+       <h3>
+        Check the current status
+       </h3>
+       <p>
+        Look at the recorded MOT status and expiry date. Do not assume an old pass means the vehicle has a current MOT today.
+       </p>
+      </div>
+      <div>
+       <h3>
+        Compare past test results
+       </h3>
+       <p>
+        Review dates and pass or fail outcomes. Repeated failures or advisories can help you identify questions to ask the seller.
+       </p>
+      </div>
+      <div>
+       <h3>
+        Review mileage readings
+       </h3>
+       <p>
+        Compare readings across test dates. An inconsistency may need investigation, but mileage records alone do not prove tampering.
+       </p>
+      </div>
+      <div>
+       <h3>
+        Understand advisories
+       </h3>
+       <p>
+        Advisories identify issues noted by the tester that may need attention. Ask a qualified mechanic to assess any concerns before buying.
+       </p>
+      </div>
+     </div>
+     <div class="sec-head" style="margin-top:36px">
+      <h2>
+       Verify MOT Information with GOV.UK
+      </h2>
+      <p>
+       UK Vehicle Check is an independent service and is not part of the government. You can use the official GOV.UK service to check MOT history and confirm records. An MOT history is not a complete vehicle history report and does not replace a mechanical inspection.
+      </p>
+      <p style="margin-top:14px">
+       <a href="https://www.gov.uk/check-mot-history" rel="noopener noreferrer">
+        Check MOT history on GOV.UK
+       </a>
+       &middot;
+       <a href="https://www.gov.uk/check-mot-status" rel="noopener noreferrer">
+        Check MOT status on GOV.UK
+       </a>
+      </p>
+     </div>
+    </div>
+   </section>
+   <section id="mot-check-details">
+    <div class="wrap">
+     <div class="sec-head">
+      <h2>
+       What Does an MOT Check Show?
+      </h2>
+      <p>
+       An MOT check focuses on recorded MOT information. The exact details depend on the vehicle, the records available and the data source used. Use these sections to understand what to look for when reviewing an MOT record.
+      </p>
+     </div>
+     <div class="hl">
+      <div>
+       <h3>
+        MOT status and expiry
+       </h3>
+       <p>
+        Check whether a vehicle has a recorded current MOT and when the certificate expires. Always confirm the latest status before driving or buying.
+       </p>
+      </div>
+      <div>
+       <h3>
+        Past MOT test results
+       </h3>
+       <p>
+        Review test dates and whether each recorded test passed or failed. A previous pass describes the test result at that time, not the vehicle&rsquo;s condition today.
+       </p>
+      </div>
+      <div>
+       <h3>
+        Recorded mileage
+       </h3>
+       <p>
+        Compare odometer readings in date order. A surprising change can warrant further checks, but MOT readings alone cannot prove mileage fraud.
+       </p>
+      </div>
+      <div>
+       <h3>
+        Failures and advisories
+       </h3>
+       <p>
+        Read recorded defects and advisories to understand issues identified during a test and items that may need attention.
+       </p>
+      </div>
+      <div>
+       <h3>
+        Safety recalls
+       </h3>
+       <p>
+        Some MOT history records may include a safety recall indication, depending on the manufacturer and the information available. Verify recall information with the appropriate official source.
+       </p>
+      </div>
+      <div>
+       <h3>
+        Test centre information
+       </h3>
+       <p>
+        Some test-location details may require additional information, such as the 11-digit number from the vehicle log book for eligible tests in Great Britain.
+       </p>
+      </div>
+     </div>
+     <div class="sec-head" style="margin-top:42px">
+      <h2>
+       What an MOT Check Does Not Tell You
+      </h2>
+      <p>
+       An MOT history is not a complete vehicle history report and is not a guarantee that a vehicle is mechanically sound. It does not automatically provide finance status, insurance write-off history, stolen-vehicle checks, full service records or every vehicle specification. Only describe these as available if your service has a verified source for them.
+      </p>
+      <p style="margin-top:12px">
+       An MOT test records the condition of testable items at the time of the test. Before buying a used vehicle, consider an independent mechanical inspection and verify the vehicle details against its documents.
+      </p>
+     </div>
+     <div class="sec-head" style="margin-top:42px">
+      <h2>
+       Common MOT Failure Areas
+      </h2>
+      <p>
+       Depending on the vehicle and test, recorded problems can involve tyres, lights, brakes, steering, suspension or emissions. If an MOT record lists a defect, read its exact description rather than relying on a general summary. Ask a qualified mechanic to assess safety concerns before driving or buying the vehicle.
+      </p>
+     </div>
+     <div class="tw">
+      <table>
+       <thead>
+        <tr>
+         <th scope="col">
+          Record item
+         </th>
+         <th scope="col">
+          What it means
+         </th>
+         <th scope="col">
+          What to do next
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <th scope="row">
+          Pass
+         </th>
+         <td>
+          The vehicle passed that MOT test.
+         </td>
+         <td>
+          Check the current expiry date and remember condition can change after the test.
+         </td>
+        </tr>
+        <tr>
+         <th scope="row">
+          Fail
+         </th>
+         <td>
+          The vehicle did not pass that test.
+         </td>
+         <td>
+          Read the recorded defects and check for a later retest or pass record.
+         </td>
+        </tr>
+        <tr>
+         <th scope="row">
+          Advisory
+         </th>
+         <td>
+          An item was noted for attention or monitoring.
+         </td>
+         <td>
+          Ask whether it has been repaired and arrange an inspection if needed.
+         </td>
+        </tr>
+        <tr>
+         <th scope="row">
+          Mileage reading
+         </th>
+         <td>
+          The odometer value recorded at a test.
+         </td>
+         <td>
+          Compare readings chronologically and investigate inconsistencies.
+         </td>
+        </tr>
+       </tbody>
+      </table>
+     </div>
+     <p class="after">
+      For official records, use the
+      <a href="https://www.gov.uk/check-mot-history" rel="noopener noreferrer">
+       GOV.UK MOT history service
+      </a>
+      and the
+      <a href="https://www.gov.uk/check-mot-status" rel="noopener noreferrer">
+       GOV.UK MOT status service
+      </a>
+      .
+     </p>
+    </div>
+    <div class="sec-head" style="margin-top:44px">
+     <h2>
+      Used-Car MOT Check: A Practical Checklist
+     </h2>
+     <p>
+      MOT history is one part of a used-car review. Use the record to prepare questions, then verify the details with official records and an independent inspection.
+     </p>
+    </div>
+    <div class="hl">
+     <div>
+      <span aria-hidden="true" class="ico">
+       01
+      </span>
+      <h3>
+       Compare mileage in date order
+      </h3>
+      <p>
+       Look for a logical progression between tests. If a reading decreases or jumps unexpectedly, ask for an explanation and supporting service records.
+      </p>
+     </div>
+     <div>
+      <span aria-hidden="true" class="ico">
+       02
+      </span>
+      <h3>
+       Read the exact defects
+      </h3>
+      <p>
+       Review failures and advisories individually. A short summary can miss the context of the tester&rsquo;s recorded wording.
+      </p>
+     </div>
+     <div>
+      <span aria-hidden="true" class="ico">
+       03
+      </span>
+      <h3>
+       Check the latest record
+      </h3>
+      <p>
+       Look for a later retest or pass after a failure. Confirm the current MOT status and expiry date with GOV.UK before making a decision.
+      </p>
+     </div>
+    </div>
+    <p class="after">
+     An MOT pass does not guarantee a vehicle&rsquo;s present condition, and MOT history does not replace checks for outstanding finance, insurance write-off status, theft or service history.
+    </p>
+   </section>
+   <section class="alt" id="mot-rules-and-next-steps">
+    <div class="wrap">
+     <div class="sec-head">
+      <h2>
+       MOT Rules, Failures and Next Steps
+      </h2>
+      <p>
+       Use this practical MOT guide to understand what to do when an MOT is due, a vehicle fails, or an MOT record is missing. Rules can differ for Northern Ireland and some vehicle classes, so verify the details with the official service.
+      </p>
+     </div>
+     <div class="hl">
+      <div>
+       <h3>
+        When is my MOT due?
+       </h3>
+       <p>
+        Most cars, motorcycles and light vehicles need their first MOT by the third anniversary of first registration and then annually. Some vehicle types need an earlier first test. Check the official record for the vehicle&rsquo;s due date rather than estimating from its age.
+       </p>
+       <p style="margin-top:10px">
+        <a href="https://www.gov.uk/getting-an-mot" rel="noopener noreferrer">
+         Official guide: when to get an MOT
+        </a>
+       </p>
+      </div>
+      <div>
+       <h3>
+        What happens if a vehicle fails its MOT?
+       </h3>
+       <p>
+        Read the exact defects on the refusal notice. A vehicle with dangerous defects must not be driven until the problems are fixed. Whether you can take a failed vehicle away depends on its existing MOT validity and whether dangerous defects were recorded.
+       </p>
+       <p style="margin-top:10px">
+        <a href="https://www.gov.uk/getting-an-mot/after-the-test" rel="noopener noreferrer">
+         Official guide: MOT test results
+        </a>
+       </p>
+      </div>
+      <div>
+       <h3>
+        Can I drive with an expired MOT?
+       </h3>
+       <p>
+        Generally, you must not drive or park a vehicle on the road without a valid MOT when one is required. Exceptions include travelling to a pre-arranged MOT appointment or to have defects repaired, but the vehicle must still be roadworthy. Check the official rules before travelling.
+       </p>
+       <p style="margin-top:10px">
+        <a href="https://www.gov.uk/getting-an-mot" rel="noopener noreferrer">
+         Official guidance on expired MOTs
+        </a>
+       </p>
+      </div>
+      <div>
+       <h3>
+        MOT exemptions and first MOT date
+       </h3>
+       <p>
+        Some vehicles may be exempt from MOT testing, including certain historic vehicles, but exemptions have conditions and can depend on vehicle modifications. Do not assume a vehicle is exempt just because it is old; verify eligibility with official guidance.
+       </p>
+       <p style="margin-top:10px">
+        <a href="https://www.gov.uk/historic-vehicles" rel="noopener noreferrer">
+         Official historic vehicle guidance
+        </a>
+       </p>
+      </div>
+      <div>
+       <h3>
+        MOT retest after repairs
+       </h3>
+       <p>
+        Retest arrangements and fees depend on where repairs are carried out and how soon the vehicle is returned. Keep the test paperwork, repair invoices and any retest result together, then check the latest MOT record for an updated result.
+       </p>
+       <p style="margin-top:10px">
+        <a href="https://www.gov.uk/getting-an-mot/retests" rel="noopener noreferrer">
+         Official guide: MOT retests
+        </a>
+       </p>
+      </div>
+      <div>
+       <h3>
+        Other checks before buying a car
+       </h3>
+       <p>
+        An MOT history does not automatically confirm vehicle tax, outstanding finance, insurance write-off status or stolen status. These require separate checks and data sources. UK Vehicle Check does not claim to provide those results unless a relevant service is implemented.
+       </p>
+       <p style="margin-top:10px">
+        <a href="https://www.gov.uk/check-vehicle-tax" rel="noopener noreferrer">
+         Check vehicle tax
+        </a>
+        &middot;
+        <a href="https://www.gov.uk/check-vehicle-recall" rel="noopener noreferrer">
+         Check vehicle recalls
+        </a>
+        &middot;
+        <a href="https://www.gov.uk/find-mot-test-centre" rel="noopener noreferrer">
+         Find an MOT test centre
+        </a>
+       </p>
+      </div>
+     </div>
+     <div class="sec-head" style="margin-top:42px">
+      <h2>
+       MOT Defect Categories Explained
+      </h2>
+      <p>
+       Understanding the wording of an MOT result helps you decide what to ask a seller or mechanic. The official record and test paperwork take priority over any simplified summary.
+      </p>
+     </div>
+     <div class="tw">
+      <table>
+       <thead>
+        <tr>
+         <th scope="col">
+          Term
+         </th>
+         <th scope="col">
+          Plain-English meaning
+         </th>
+         <th scope="col">
+          What to do
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <th scope="row">
+          Pass
+         </th>
+         <td>
+          The vehicle passed that test; minor defects or advisories may still be recorded.
+         </td>
+         <td>
+          Check the current expiry date and review advisories.
+         </td>
+        </tr>
+        <tr>
+         <th scope="row">
+          Minor defect
+         </th>
+         <td>
+          A defect that does not cause the test to fail, but should be monitored or addressed.
+         </td>
+         <td>
+          Read the tester&rsquo;s exact wording and plan any maintenance.
+         </td>
+        </tr>
+        <tr>
+         <th scope="row">
+          Major defect
+         </th>
+         <td>
+          A more serious problem that results in an MOT failure.
+         </td>
+         <td>
+          Arrange repairs and follow the test centre&rsquo;s advice about whether the vehicle can be driven.
+         </td>
+        </tr>
+        <tr>
+         <th scope="row">
+          Dangerous defect
+         </th>
+         <td>
+          A defect presenting a direct and immediate risk to road safety or a serious environmental risk.
+         </td>
+         <td>
+          Do not drive until the issue is repaired; follow official guidance.
+         </td>
+        </tr>
+        <tr>
+         <th scope="row">
+          Advisory
+         </th>
+         <td>
+          An item noted for attention or monitoring that did not itself cause a fail.
+         </td>
+         <td>
+          Ask whether it has since been repaired and consider an inspection.
+         </td>
+        </tr>
+       </tbody>
+      </table>
+     </div>
+     <p class="after">
+      For current official rules, consult
+      <a href="https://www.gov.uk/getting-an-mot/after-the-test" rel="noopener noreferrer">
+       GOV.UK MOT test results
+      </a>
+      and the
+      <a href="https://www.gov.uk/guidance/mot-inspection-manual-for-private-passenger-and-light-commercial-vehicles/introduction" rel="noopener noreferrer">
+       MOT inspection manual
+      </a>
+      .
+     </p>
+    </div>
+   </section>
+   <section class="alt" id="service-standards">
+    <div class="wrap">
+     <div class="sec-head">
+      <h2>
+       Clear, Responsible MOT Information
+      </h2>
+      <p>
+       UK Vehicle Check is intended to help people understand MOT information in plain English. We do not represent the government, and this page does not claim to return live MOT records until a data connection is configured.
+      </p>
+     </div>
+     <div class="hl">
+      <div>
+       <h3>
+        Official verification
+       </h3>
+       <p>
+        Use GOV.UK to confirm the official MOT status and history rather than relying on an unverified summary.
+       </p>
+      </div>
+      <div>
+       <h3>
+        No invented results
+       </h3>
+       <p>
+        Unavailable data should be clearly labelled. Example reports must remain visibly marked as demonstrations, not real vehicle records.
+       </p>
+      </div>
+      <div>
+       <h3>
+        Privacy by design
+       </h3>
+       <p>
+        Before launch, explain what information is collected, how the lookup works, how long data is retained and how users can contact the site owner.
+       </p>
+      </div>
+     </div>
+    </div>
+   </section>
+   <section id="faq">
+    <div class="wrap">
+     <div class="sec-head">
+      <h2>
+       Free MOT Check UK &ndash; Frequently Asked Questions
+      </h2>
+      <p>
+       Learn about MOT status checks, MOT expiry dates, vehicle registration searches and MOT test history.
+      </p>
+     </div>
+     <div class="faq">
+      <details>
+       <summary>
+        How do I check the MOT history of a vehicle?
+        <svg aria-hidden="true" fill="none" height="20" stroke="currentColor" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24" width="20">
+         <path d="M6 9l6 6 6-6">
+         </path>
+        </svg>
+       </summary>
+       <div class="a">
+        Enter the vehicle registration number and select Check Vehicle when the lookup service is connected. Results depend on the data source available to the service. You can also use the official GOV.UK MOT history checker to view government records.
+       </div>
+      </details>
+      <details>
+       <summary>
+        What is the MOT expiry date?
+        <svg aria-hidden="true" fill="none" height="20" stroke="currentColor" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24" width="20">
+         <path d="M6 9l6 6 6-6">
+         </path>
+        </svg>
+       </summary>
+       <div class="a">
+        It is the date the current MOT certificate runs out, as recorded for the vehicle.
+       </div>
+      </details>
+      <details>
+       <summary>
+        What are advisories?
+        <svg aria-hidden="true" fill="none" height="20" stroke="currentColor" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24" width="20">
+         <path d="M6 9l6 6 6-6">
+         </path>
+        </svg>
+       </summary>
+       <div class="a">
+        Advisories are items a tester noted that did not cause a fail but may need attention in future. They appear only where the test record includes them.
+       </div>
+      </details>
+      <details>
+       <summary>
+        Why is some information missing?
+        <svg aria-hidden="true" fill="none" height="20" stroke="currentColor" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24" width="20">
+         <path d="M6 9l6 6 6-6">
+         </path>
+        </svg>
+       </summary>
+       <div class="a">
+        A report only contains what the data source returns. Missing items are labelled as unavailable rather than guessed.
+       </div>
+      </details>
+      <details>
+       <summary>
+        What can I check with an MOT checker?
+        <svg aria-hidden="true" fill="none" height="20" stroke="currentColor" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24" width="20">
+         <path d="M6 9l6 6 6-6">
+         </path>
+        </svg>
+       </summary>
+       <div class="a">
+        Depending on the records available, an MOT checker can help you review MOT status, expiry date, past test results, mileage readings, failures and advisories. Use GOV.UK to verify official MOT information.
+       </div>
+      </details>
+      <details>
+       <summary>
+        Can an MOT history check help when buying a used car?
+        <svg aria-hidden="true" fill="none" height="20" stroke="currentColor" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24" width="20">
+         <path d="M6 9l6 6 6-6">
+         </path>
+        </svg>
+       </summary>
+       <div class="a">
+        Yes. Reviewing past MOT test results, mileage history, failures and advisories can help you decide what questions to ask before buying. It is not a substitute for an independent mechanical inspection or a complete vehicle history check.
+       </div>
+      </details>
+      <details>
+       <summary>
+        Does an MOT pass mean the vehicle is mechanically perfect?
+        <svg aria-hidden="true" fill="none" height="20" stroke="currentColor" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24" width="20">
+         <path d="M6 9l6 6 6-6">
+         </path>
+        </svg>
+       </summary>
+       <div class="a">
+        No. An MOT result relates to testable items at the time of the test. It is not a guarantee of the vehicle&rsquo;s current condition or a substitute for a professional inspection.
+       </div>
+      </details>
+      <details>
+       <summary>
+        How far back does MOT history go?
+        <svg aria-hidden="true" fill="none" height="20" stroke="currentColor" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24" width="20">
+         <path d="M6 9l6 6 6-6">
+         </path>
+        </svg>
+       </summary>
+       <div class="a">
+        For cars, motorcycles and vans in Great Britain, official online MOT history is generally available for tests since 2005. Northern Ireland and other vehicle classes can have different record coverage. Check GOV.UK for the current scope.
+       </div>
+      </details>
+      <details>
+       <summary>
+        Can MOT history confirm whether a car has outstanding finance or has been written off?
+        <svg aria-hidden="true" fill="none" height="20" stroke="currentColor" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24" width="20">
+         <path d="M6 9l6 6 6-6">
+         </path>
+        </svg>
+       </summary>
+       <div class="a">
+        Not by itself. MOT history is focused on MOT test records. Finance and insurance write-off checks require separate, appropriate data sources and should only be advertised if this service actually provides them.
+       </div>
+      </details>
+      <details>
+       <summary>
+        Why should I compare mileage readings over time?
+        <svg aria-hidden="true" fill="none" height="20" stroke="currentColor" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24" width="20">
+         <path d="M6 9l6 6 6-6">
+         </path>
+        </svg>
+       </summary>
+       <div class="a">
+        Comparing readings in date order can help you spot inconsistencies that deserve further investigation. A discrepancy can have different causes and does not, by itself, prove odometer tampering.
+       </div>
+      </details>
+      <details>
+       <summary>
+        Is this an official government website?
+        <svg aria-hidden="true" fill="none" height="20" stroke="currentColor" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24" width="20">
+         <path d="M6 9l6 6 6-6">
+         </path>
+        </svg>
+       </summary>
+       <div class="a">
+        No. UK Vehicle Check is an independent service. You can cross-check any result with the
+        <a href="https://www.gov.uk/check-mot-history" rel="noopener noreferrer">
+         official GOV.UK MOT history checker
+        </a>
+        .
+       </div>
+      </details>
+      <details>
+       <summary>
+        What should I do if my car fails its MOT?
+        <svg aria-hidden="true" fill="none" height="20" stroke="currentColor" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24" width="20">
+         <path d="M6 9l6 6 6-6">
+         </path>
+        </svg>
+       </summary>
+       <div class="a">
+        Read the exact defects on the test paperwork and arrange repairs. Whether you can drive the vehicle away depends on whether its existing MOT is still valid and whether dangerous defects were recorded. Check the
+        <a href="https://www.gov.uk/getting-an-mot/after-the-test" rel="noopener noreferrer">
+         official MOT test result guidance
+        </a>
+        .
+       </div>
+      </details>
+      <details>
+       <summary>
+        Can I drive a car with an expired MOT?
+        <svg aria-hidden="true" fill="none" height="20" stroke="currentColor" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24" width="20">
+         <path d="M6 9l6 6 6-6">
+         </path>
+        </svg>
+       </summary>
+       <div class="a">
+        Generally, you cannot drive or park a vehicle on the road without a valid MOT when one is required. Exceptions include driving to a pre-arranged MOT test or to have repairs carried out, but the vehicle must still be roadworthy. Read the
+        <a href="https://www.gov.uk/getting-an-mot" rel="noopener noreferrer">
+         official MOT guidance
+        </a>
+        .
+       </div>
+      </details>
+      <details>
+       <summary>
+        When does a new car need its first MOT?
+        <svg aria-hidden="true" fill="none" height="20" stroke="currentColor" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24" width="20">
+         <path d="M6 9l6 6 6-6">
+         </path>
+        </svg>
+       </summary>
+       <div class="a">
+        Most cars need their first MOT by the third anniversary of first registration, then annually. Some vehicle types have different rules, and Northern Ireland has separate processes. Check the
+        <a href="https://www.gov.uk/getting-an-mot" rel="noopener noreferrer">
+         official guidance
+        </a>
+        for your vehicle.
+       </div>
+      </details>
+      <details>
+       <summary>
+        Are any vehicles exempt from MOT testing?
+        <svg aria-hidden="true" fill="none" height="20" stroke="currentColor" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24" width="20">
+         <path d="M6 9l6 6 6-6">
+         </path>
+        </svg>
+       </summary>
+       <div class="a">
+        Some vehicles can qualify for an exemption, but eligibility has conditions and may depend on modifications and vehicle class. Do not assume a vehicle is exempt based only on age; verify it using
+        <a href="https://www.gov.uk/historic-vehicles" rel="noopener noreferrer">
+         official historic vehicle guidance
+        </a>
+        .
+       </div>
+      </details>
+      <details>
+       <summary>
+        Does an MOT check tell me whether the car is taxed?
+        <svg aria-hidden="true" fill="none" height="20" stroke="currentColor" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24" width="20">
+         <path d="M6 9l6 6 6-6">
+         </path>
+        </svg>
+       </summary>
+       <div class="a">
+        An MOT history check does not by itself confirm vehicle tax status. Use the separate
+        <a href="https://www.gov.uk/check-vehicle-tax" rel="noopener noreferrer">
+         GOV.UK vehicle tax checker
+        </a>
+        . UK Vehicle Check does not currently claim to return live tax results.
+       </div>
+      </details>
+      <details>
+       <summary>
+        Can I download an MOT certificate online?
+        <svg aria-hidden="true" fill="none" height="20" stroke="currentColor" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24" width="20">
+         <path d="M6 9l6 6 6-6">
+         </path>
+        </svg>
+       </summary>
+       <div class="a">
+        The official GOV.UK MOT history service supports downloading current and previous MOT certificates for eligible vehicles in Great Britain. Northern Ireland has different arrangements. Use the
+        <a href="https://www.gov.uk/check-mot-history" rel="noopener noreferrer">
+         official MOT history service
+        </a>
+        to check availability.
+       </div>
+      </details>
+     </div>
+    </div>
+   </section>
+   <section class="content-section" id="data-coverage">
+    <div class="wrap">
+     <span class="pill">
+      Official data source
+     </span>
+     <h2>
+      DVSA MOT data &amp; coverage
+     </h2>
+     <p>
+      UK Vehicle Check is being prepared to retrieve MOT history from the official Driver and Vehicle Standards Agency (DVSA) MOT History API. API access must be approved and connected securely before this website can show live vehicle records. UK Vehicle Check is not a GOV.UK website and is not endorsed by the UK Government.
+     </p>
+     <div class="stats-grid" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:14px;margin:22px 0">
+      <div class="result-panel">
+       <strong style="font-size:1.7rem;display:block">
+        2005+
+       </strong>
+       <span>
+        Car, motorcycle and van MOT history coverage in Great Britain (API coverage)
+       </span>
+      </div>
+      <div class="result-panel">
+       <strong style="font-size:1.7rem;display:block">
+        Daily
+       </strong>
+       <span>
+        Delta data files are published daily for the official bulk-data service
+       </span>
+      </div>
+      <div class="result-panel">
+       <strong style="font-size:1.7rem;display:block">
+        40M+
+       </strong>
+       <span>
+        MOT test records &mdash; indicative site statistic; confirm the current record count before publishing as a verified figure
+       </span>
+      </div>
+     </div>
+     <p>
+      <a href="https://documentation.history.mot.api.gov.uk/" rel="noopener noreferrer" target="_blank">
+       Read official DVSA MOT History API documentation &nearrow;
+      </a>
+      &middot;
+      <a href="https://www.gov.uk/check-mot-history" rel="noopener noreferrer" target="_blank">
+       Check MOT history on GOV.UK &nearrow;
+      </a>
+     </p>
+     <p class="result-disclaimer">
+      Data coverage varies by vehicle type and region. Cars, motorcycles and vans in Great Britain have records since 2005; Northern Ireland coverage begins in 2017 according to DVSA API documentation. Daily updates apply to the bulk-download data service, not necessarily every individual lookup.
+     </p>
+    </div>
+   </section>
+   <section class="cta">
+    <div class="wrap">
+     <h2>
+      Ready to check a vehicle?
+     </h2>
+     <p>
+      Enter a registration number to see the MOT history that is available.
+     </p>
+     <a class="btn" href="#reg">
+      Check Vehicle
+     </a>
+    </div>
+   </section>
+  </main>
+  <footer>
+   <div class="wrap">
+    <div class="fg">
+     <div>
+      <a class="logo" href="#top">
+       <svg aria-hidden="true" fill="none" stroke="#E2BC62" stroke-linejoin="round" stroke-width="2" viewbox="0 0 34 38">
+        <path d="M17 2l14 5v10c0 9-6 15-14 19C9 32 3 26 3 17V7z">
+        </path>
+       </svg>
+       UK Vehicle Check
+      </a>
+      <p style="margin-top:12px;max-width:260px">
+       MOT history information service preparing to connect to official DVSA data.
+      </p>
+     </div>
+     <div>
+      <h3>
+       Navigate
+      </h3>
+      <ul>
+       <li>
+        <a href="#top">
+         Home
+        </a>
+       </li>
+       <li>
+        <a href="#check">
+         Free MOT Check
+        </a>
+       </li>
+       <li>
+        <a href="#history">
+         MOT History
+        </a>
+       </li>
+       <li>
+        <a href="#report">
+         Sample Report
+        </a>
+       </li>
+       <li>
+        <a href="#mot-check-details">
+         What Is Included
+        </a>
+       </li>
+       <li>
+        <a href="#data-coverage">
+         DVSA Data &amp; Coverage
+        </a>
+       </li>
+      </ul>
+     </div>
+     <div>
+      <h3>
+       Help
+      </h3>
+      <ul>
+       <li>
+        <a href="#faq">
+         Help / FAQs
+        </a>
+       </li>
+       <li>
+        <a href="https://www.gov.uk/check-mot-history" rel="noopener noreferrer">
+         Official GOV.UK MOT checker
+        </a>
+       </li>
+      </ul>
+     </div>
+     <div>
+      <h3>
+       Legal
+      </h3>
+      <ul>
+       <li>
+        <a href="#privacy">
+         Privacy and legal information
+        </a>
+       </li>
+       <li>
+        <a href="#data-coverage">
+         DVSA Data &amp; Coverage
+        </a>
+       </li>
+      </ul>
+     </div>
+    </div>
+    <div class="legal">
+     <p>
+      <strong style="color:#fff">
+       Official DVSA data connection pending.
+      </strong>
+      UK Vehicle Check is not an official government website and is not government-endorsed. Live MOT results are unavailable until DVSA API access is approved and the secure backend connection is configured. Verify records through GOV.UK.
+     </p>
+     <p id="privacy" style="margin-top:8px">
+      Before launch, publish accurate privacy information, terms, cookie information (if applicable) and a working contact method. These must reflect the site&rsquo;s actual data collection, analytics, hosting and MOT lookup provider.
+     </p>
+    </div>
+   </div>
+  </footer>
+  <script>
+   (function(){
+// Light theme is the default for first-time visitors; remember a user's choice.
+var root=document.documentElement,themeButton=document.getElementById('themeToggle'),themeMeta=document.getElementById('themeColorMeta');
+function applyTheme(theme){
+  var dark=theme==='dark';
+  root.setAttribute('data-theme',dark?'dark':'light');
+  if(themeButton){themeButton.setAttribute('aria-pressed',dark?'true':'false');themeButton.setAttribute('aria-label',dark?'Switch to light mode':'Switch to dark mode');themeButton.querySelector('.theme-icon').textContent=dark?'☀':'☾';themeButton.querySelector('.theme-label').textContent=dark?'Light mode':'Dark mode';}
+  if(themeMeta)themeMeta.setAttribute('content',dark?'#101417':'#FBF5EC');
+}
+var savedTheme=null;try{savedTheme=localStorage.getItem('ukvc-theme')}catch(e){}
+applyTheme(savedTheme==='dark'?'dark':'light');
+if(themeButton){themeButton.addEventListener('click',function(){var next=root.getAttribute('data-theme')==='dark'?'light':'dark';applyTheme(next);try{localStorage.setItem('ukvc-theme',next)}catch(e){};});}
+// Set to your backend endpoint (e.g. "/api/mot"); it must return JSON for ?reg=AB12CDE
+var API_URL=""; // Configure this with your own secure backend endpoint before launch.
+var form=document.getElementById('form'),input=document.getElementById('reg'),plate=document.getElementById('plate'),msg=document.getElementById('msg'),go=document.getElementById('go'),gotxt=document.getElementById('gotxt'),busy=false;
+var liveResults=document.getElementById('liveResults');
+function esc(v){return String(v==null?'':v).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]})}
+function first(obj,keys){for(var i=0;i<keys.length;i++){if(obj&&obj[keys[i]]!==undefined&&obj[keys[i]]!==null&&obj[keys[i]]!=='')return obj[keys[i]]}return ''}
+function renderResults(data,reg){
+ var vehicle=(data&&data.vehicle)||data||{};var records=Array.isArray(data)?data:(Array.isArray(vehicle.motTests)?[vehicle]:[]);
+ if(Array.isArray(data)&&data.length===1&&data[0]&&Array.isArray(data[0].motTests)){vehicle=data[0];records=[vehicle]}
+ var tests=[];records.forEach(function(rec){if(Array.isArray(rec.motTests))tests=tests.concat(rec.motTests);else if(rec&&rec.completedDate)tests.push(rec)});
+ if(data&&data.motTests&&Array.isArray(data.motTests))tests=data.motTests;
+ tests.sort(function(a,b){return String(first(b,['completedDate','testDate'])).localeCompare(String(first(a,['completedDate','testDate'])))});
+ var make=first(vehicle,['make','vehicleMake'])||first(data,['make'])||'Not provided';
+ var model=first(vehicle,['model','vehicleModel'])||first(data,['model']);
+ var colour=first(vehicle,['primaryColour','colour','color'])||first(data,['primaryColour']);
+ var fuel=first(vehicle,['fuelType'])||first(data,['fuelType']);
+ var engine=first(vehicle,['engineSize','engineCapacity'])||first(data,['engineSize']);
+ var firstUsed=first(vehicle,['firstUsedDate','registrationDate','manufactureDate'])||first(data,['firstUsedDate','registrationDate']);
+ var latest=tests[0]||{};var expiry=first(latest,['expiryDate'])||first(vehicle,['motExpiryDate','expiryDate']);
+ var cards=[['Registration',reg],['Make',make],['Model',model],['Colour',colour],['Fuel type',fuel],['Engine size',engine?String(engine)+(String(engine).toLowerCase().indexOf('cc')>=0?'':' cc'):''] ,['First used / registered',firstUsed],['Latest recorded test',first(latest,['completedDate','testDate'])],['Latest test result',first(latest,['testResult','result'])],['MOT expiry (recorded)',expiry]];
+ document.getElementById('resultTitle').textContent=(make&&make!=='Not provided'?make+' ':'')+(model?model+' ':'')+'MOT report';
+ document.getElementById('resultSubtitle').textContent='Registration: '+reg+' · '+tests.length+' recorded test'+(tests.length===1?'':'s')+' returned';
+ document.getElementById('vehicleCards').innerHTML=cards.filter(function(c){return c[1]!==''&&c[1]!==null&&c[1]!==undefined}).map(function(c){return '<div class="vehicle-card"><small>'+esc(c[0])+'</small><strong>'+esc(c[1])+'</strong></div>'}).join('');
+ document.getElementById('historyRows').innerHTML=tests.map(function(t){var result=first(t,['testResult','result'])||'Not provided';var pass=String(result).toLowerCase()==='pass';var fail=String(result).toLowerCase()==='fail';var mileage=first(t,['odometerValue','mileage']);var unit=first(t,['odometerUnit'])||'miles';return '<tr><td>'+esc(first(t,['completedDate','testDate'])||'—')+'</td><td><span class="result-badge '+(pass?'pass':fail?'fail':'')+'">'+esc(result)+'</span></td><td>'+esc(mileage?(mileage+' '+unit):'—')+'</td><td>'+esc(first(t,['expiryDate'])||'—')+'</td></tr>'}).join('');
+ document.getElementById('noTests').hidden=tests.length>0;
+ var mileageItems=tests.filter(function(t){return first(t,['odometerValue','mileage'])!==''});var max=0;mileageItems.forEach(function(t){max=Math.max(max,Number(String(first(t,['odometerValue','mileage'])).replace(/[^0-9.]/g,''))||0)});
+ document.getElementById('mileageChart').innerHTML=mileageItems.length?mileageItems.slice().reverse().map(function(t){var val=first(t,['odometerValue','mileage']);var n=Number(String(val).replace(/[^0-9.]/g,''))||0;var date=first(t,['completedDate','testDate'])||'Test';return '<div class="mileage-row"><span>'+esc(date)+'</span><div class="mileage-bar-wrap"><div class="mileage-bar" style="width:'+ (max?Math.max(3,n/max*100):3)+'%"></div></div><strong>'+esc(val)+' '+esc(first(t,['odometerUnit'])||'miles')+'</strong></div>'}).join(''):'<p class="empty-state">No mileage readings were returned.</p>';
+ var defects=[];tests.forEach(function(t){var ds=Array.isArray(t.defects)?t.defects:(Array.isArray(t.rfrAndComments)?t.rfrAndComments:[]);ds.forEach(function(d){defects.push({text:first(d,['text','description','comment'])||String(d),type:first(d,['type','defectType'])||'',dangerous:!!d.dangerous})})});
+ document.getElementById('defectList').innerHTML=defects.length?defects.map(function(d){var typ=d.dangerous?'Dangerous':d.type||'Recorded defect / advisory';return '<div class="defect-item"><div class="defect-meta"><span class="defect-type">'+esc(typ)+'</span></div><p>'+esc(d.text)+'</p></div>'}).join(''):'<p class="empty-state">No defect/advisory details were returned in this response.</p>';
+ liveResults.hidden=false;liveResults.scrollIntoView({behavior:'smooth',block:'start'});
+}
+document.getElementById('clearResults').addEventListener('click',function(){liveResults.hidden=true;document.getElementById('historyRows').innerHTML='';document.getElementById('vehicleCards').innerHTML='';document.getElementById('mileageChart').innerHTML='';document.getElementById('defectList').innerHTML='';input.focus()});
+var burger=document.getElementById('burger'),menu=document.getElementById('menu');
+burger.addEventListener('click',function(){var o=menu.classList.toggle('open');burger.setAttribute('aria-expanded',o);burger.setAttribute('aria-label',o?'Close menu':'Open menu')});
+menu.addEventListener('click',function(e){if(e.target.closest('a')){menu.classList.remove('open');burger.setAttribute('aria-expanded','false')}});
+document.querySelectorAll('a[href="#reg"]').forEach(function(a){a.addEventListener('click',function(e){e.preventDefault();document.getElementById('top').scrollIntoView({behavior:'smooth'});setTimeout(function(){input.focus()},250)})});
+function show(t,c){msg.className='msg'+(c?' '+c:'');msg.textContent=t}
+input.addEventListener('input',function(){var v=input.value.replace(/[^a-zA-Z0-9]/g,'').toUpperCase();if(v!==input.value)input.value=v;plate.classList.remove('bad');show('','')});
+function valid(r){return r.length>=2&&r.length<=7&&/[A-Z]/.test(r)&&/[0-9]/.test(r)}
+function setBusy(b){busy=b;go.disabled=b;form.classList.toggle('loading',b);gotxt.textContent=b?'Checking…':'Check Vehicle';go.setAttribute('aria-busy',b)}
+form.addEventListener('submit',function(e){
+e.preventDefault();if(busy)return;
+var r=input.value.trim().replace(/\s+/g,'').toUpperCase();input.value=r;
+if(!r){plate.classList.add('bad');show('Enter a registration number to run a check.','err');input.focus();return}
+if(!valid(r)){plate.classList.add('bad');show('That does not look like a UK registration number. Use letters and numbers only, for example AB12CDE.','err');input.focus();return}
+if(!API_URL){show('The lookup service is not connected yet, so no result can be shown. The site owner needs to add the MOT data source.','err');return}
+setBusy(true);show('Checking records…','ok');
+fetch(API_URL+'?reg='+encodeURIComponent(r),{headers:{Accept:'application/json'}}).then(function(res){if(res.status===404)throw{t:'nf'};if(!res.ok)throw{t:'api'};return res.json()}).then(function(d){
+if(!d||(Array.isArray(d)&&!d.length))throw{t:'nf'};renderResults(d,r);show('MOT data received for '+r+'. Check the report below.','ok')}).catch(function(x){
+if(x&&x.t==='nf')show('No MOT record was found for '+r+'. Check the registration and try again. New vehicles may not have a record yet.','err');else show('The lookup could not be completed. Please try again shortly.','err')}).finally(function(){setBusy(false)})});
+})();
+
+// Page-style navigation: the Home view is shown on first load; menu links open one content section at a time.
+(function(){
+  var main = document.getElementById('main');
+  if (!main) return;
+  var home = document.getElementById('top');
+  var strip = main.querySelector('.strip');
+  var sections = Array.prototype.slice.call(main.querySelectorAll(':scope > section'));
+  var menu = document.getElementById('menu');
+
+  function sectionForHash(hash) {
+    if (!hash || hash === '#top' || hash === '#main' || hash === '#reg') return home;
+    var id;
+    try { id = decodeURIComponent(hash.slice(1)); } catch(e) { id = hash.slice(1); }
+    var target = document.getElementById(id);
+    if (!target) return null;
+    if (target === home || target.closest('section') === home) return home;
+    return target.closest('section') || null;
+  }
+
+  function showPage(hash, shouldScroll) {
+    var chosen = sectionForHash(hash) || home;
+    sections.forEach(function(section) {
+      section.classList.toggle('page-view-active', section === chosen && section !== home);
+      if (section === home) section.classList.toggle('page-view-active', chosen === home);
+    });
+    if (strip) strip.classList.toggle('page-view-active', chosen === home);
+    // Keep links that point into the visible page usable, and mark the current menu item.
+    document.querySelectorAll('#menu a.l').forEach(function(link) {
+      var linkSection = sectionForHash(link.getAttribute('href'));
+      if (linkSection === chosen) link.setAttribute('aria-current', 'page');
+      else link.removeAttribute('aria-current');
+    });
+    if (menu) menu.classList.remove('open');
+    var burger = document.getElementById('burger');
+    if (burger) {
+      burger.setAttribute('aria-expanded', 'false');
+      burger.setAttribute('aria-label', 'Open menu');
+    }
+    if (shouldScroll) {
+      window.scrollTo({top:0, behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth'});
+    }
+  }
+
+  // Open the correct page when a menu or footer link is clicked, and support browser Back/Forward.
+  document.addEventListener('click', function(event) {
+    var link = event.target.closest('a[href^="#"]');
+    if (!link) return;
+    var hash = link.getAttribute('href');
+    if (!hash || hash === '#privacy') return;
+    var chosen = sectionForHash(hash);
+    if (!chosen) return;
+    // Existing "Check Vehicle" links should return to Home, where the registration field lives.
+    event.preventDefault();
+    if (window.location.hash !== hash) history.pushState(null, '', hash);
+    showPage(hash, true);
+    if (hash === '#reg') {
+      window.setTimeout(function(){
+        var input = document.getElementById('reg');
+        if (input) input.focus({preventScroll:true});
+      }, 250);
+    }
+  });
+
+  window.addEventListener('popstate', function(){ showPage(window.location.hash, true); });
+  window.addEventListener('hashchange', function(){ showPage(window.location.hash, true); });
+
+  // On first open, force the Home view even if the URL has no hash.
+  showPage(window.location.hash || '#top', false);
+})();
+  </script>
+  <script>
+   /* OneSignal Web Push integration. This remains inactive until a real App ID is added below
+   and OneSignal's worker file is deployed at the website root over HTTPS. */
+(function () {
+  var ONESIGNAL_APP_ID = "YOUR_ONESIGNAL_APP_ID";
+  var buttons = document.querySelectorAll("[data-push-optin]");
+  var status = document.getElementById("notifyStatus");
+  var ready = false;
+  var loading = false;
+
+  function say(message) {
+    if (status) status.textContent = message;
+    buttons.forEach(function (button) {
+      if (button.id === "notifyBtnNav") button.setAttribute("aria-label", message);
+    });
+  }
+
+  function setButtonsDisabled(disabled) {
+    buttons.forEach(function (button) { button.disabled = disabled; });
+  }
+
+  if (!buttons.length) return;
+
+  if (ONESIGNAL_APP_ID === "YOUR_ONESIGNAL_APP_ID") {
+    say("Setup needed: connect a OneSignal App ID and upload the service-worker file before subscriptions can work.");
+  } else {
+    window.OneSignalDeferred = window.OneSignalDeferred || [];
+    window.OneSignalDeferred.push(async function (OneSignal) {
+      try {
+        await OneSignal.init({
+          appId: ONESIGNAL_APP_ID,
+          serviceWorkerPath: "OneSignalSDKWorker.js",
+          serviceWorkerParam: { scope: "/" },
+          notifyButton: { enable: false }
+        });
+        ready = true;
+        say("Notifications are ready. Tap Enable notifications to subscribe.");
+      } catch (error) {
+        console.error("OneSignal initialisation failed:", error);
+        say("Notifications could not initialise. Check the OneSignal App ID, HTTPS and service-worker setup.");
+      }
+    });
+  }
+
+  buttons.forEach(function (button) {
+    button.addEventListener("click", async function () {
+      if (loading) return;
+      if (ONESIGNAL_APP_ID === "YOUR_ONESIGNAL_APP_ID") {
+        say("Notifications are not active yet. First configure OneSignal and upload OneSignalSDKWorker.js to your website root.");
+        return;
+      }
+      if (!ready || !window.OneSignal) {
+        say("Notifications are loading. Please try again in a moment.");
+        return;
+      }
+      loading = true;
+      setButtonsDisabled(true);
+      try {
+        if (!("Notification" in window) || !("serviceWorker" in navigator)) {
+          say("This browser does not support web push notifications. Try a supported browser on HTTPS.");
+          return;
+        }
+        if (Notification.permission === "denied") {
+          say("Notifications are blocked in your browser settings. Allow them for this site, then try again.");
+          return;
+        }
+        await window.OneSignal.Notifications.requestPermission();
+        if (Notification.permission === "granted") {
+          await window.OneSignal.User.PushSubscription.optIn();
+          say("Thanks! Your browser has opted in. You can manage or turn off notifications in browser settings.");
+        } else {
+          say("No problem—you have not enabled notifications. You can choose again later.");
+        }
+      } catch (error) {
+        console.error("Push opt-in failed:", error);
+        say("We couldn't enable notifications. Please check browser permission and site setup.");
+      } finally {
+        loading = false;
+        setButtonsDisabled(false);
+      }
+    });
+  });
+})();
+  </script>
+ </body>
+</html>
